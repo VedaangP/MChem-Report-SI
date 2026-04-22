@@ -29,3 +29,7 @@ Certain programmes and modules are needed to run the code in the repository
   - sklearn
   - plotly
   - mathplotlib
+  - json
+  - bayes_opt
+  - scipy
+  - openbabel
