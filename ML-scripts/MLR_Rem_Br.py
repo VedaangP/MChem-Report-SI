@@ -18,18 +18,18 @@ from matplotlib.lines import Line2D
 #  Valid options: 'I', 'F', 'Cl', 'Br'
 # =============================================================================
 
-TEST_ACCEPTOR = 'nan-Br'
+TEST_ACCEPTOR = 'Br'
 
 # Acceptor label -> (interaction-energy database, acceptor atomic number)
 HALOGEN_DBS = {
-    'nan-I':  ('I-molecules.db',  53),
-    'nan-F':  ('F-molecules.db',   9),
-    'nan-Cl': ('Cl-molecules.db', 17),
-    'nan-Br': ('Br-molecules.db', 35),
+    'I':  ('ASE-databases/I-molecules.db',  53),
+    'F':  ('ASE-databases/F-molecules.db',   9),
+    'Cl': ('ASE-databases/Cl-molecules.db', 17),
+    'Br': ('ASE-databases/Br-molecules.db', 35),
 }
 
-FEAT_DB_PATH = 'mol.db'
-ACC_DB_PATH  = 'anion-molecules.db'
+FEAT_DB_PATH = 'ASE-databases/mol.db'
+ACC_DB_PATH  = 'ASE-databases/anion-molecules.db'
 
 # -- Scaffold ring partial charges (units: e) ---------------------------------
 
