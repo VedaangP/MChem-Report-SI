@@ -47,17 +47,17 @@ from scipy.stats import gaussian_kde
 # Valid options: 'nan-I', 'nan-F', 'nan-Cl', 'nan-Br'
 # =============================================================================
 
-TEST_ACCEPTOR = 'nan-Br'
+TEST_ACCEPTOR = 'Br'
 
 HALOGEN_DBS = {
-    'nan-I':  ('I-molecules.db',  53),
-    'nan-F':  ('F-molecules.db',   9),
-    'nan-Cl': ('Cl-molecules.db', 17),
-    'nan-Br': ('Br-molecules.db', 35),
+    'I':  ('ASE-databases/I-molecules.db',  53),
+    'F':  ('ASE-databases/F-molecules.db',   9),
+    'Cl': ('ASE-databases/Cl-molecules.db', 17),
+    'Br': ('ASE-databases/Br-molecules.db', 35),
 }
 
-FEAT_DB_PATH = 'mol.db'
-ACC_DB_PATH  = 'anion-molecules.db'
+FEAT_DB_PATH = 'ASE-databases/mol.db'
+ACC_DB_PATH  = 'ASE-databases/anion-molecules.db'
 
 SCAFFOLD_FACTORS = {
     "Benzene"   : -0.666233,
