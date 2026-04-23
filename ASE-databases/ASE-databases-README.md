@@ -9,8 +9,8 @@ Every database in this repository has the same structure:
 - MWFN_MBIS_Atomic_Charges (Natoms), $e$ — MBIS partial charges on each atom calculated by MWFN
 - MWFN_MBIS_Atom_Dipole (Natoms × 3), $a_0e$ — Cartesian atomic dipole moments from MBIS partitioning calculated by MWFN
 - MWFN_MBIS_Atom_Quadrupole (Natoms × 5), $a_0^2e$ — Atomic quadrupole components in spherical harmonics from MBIS partitioning calculated by MWFN
-- MWFN_MBIS_r2 (Natoms × 3), $a_0^2$ — Electronic spatial extent ⟨x2⟩, ⟨y2⟩, ⟨z2⟩ per atom
-- MWFN_MBIS_c6 (Natoms), $E_h a_0^6$ — Atomic C6 dispersion coefficients
+- MWFN_MBIS $r^2$ (Natoms × 3), $a_0^2$ — Electronic spatial extent ⟨x2⟩, ⟨y2⟩, ⟨z2⟩ per atom
+- MWFN_MBIS $C_6$ (Natoms), $E_h a_0^6$ — Atomic C6 dispersion coefficients
 - MWFN_MBIS_Atomic_Polarizability (Natoms × 2), $a_0^3$ — First element is the isotropic atomicpolarizability from MBIS partitioning calculated by MWFN and the second element is each atom’s contribution to the total molecular polarizability
 - MWFN_MBIS_Iodine_Vmin_Vmax (iodine × 2), $E_h/e$ — The VS,min and VS,max respectively ofiodine from MBIS partitioning calculated by MWFN
 - ORCA_Mol_Dipole (molecule × 3), $a_0e$ — Cartesian molecular dipole moments calculated by ORCA
