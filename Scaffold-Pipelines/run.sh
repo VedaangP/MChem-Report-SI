@@ -40,7 +40,7 @@ if [[ $HOSTNAME == *"csf3"* ]]; then
     # Start ORCA job
     echo "RUNNING OPI SCRIPT"
     ########### THIS NEEDS TO BE CHANGED TO YOUR ENV NAME ########
-    $HOME/.conda/envs/opi/bin/python opi_wf.py -c $SLURM_NTASKS -wrkd $calcdir -subd $SLURM_SUBMIT_DIR 
+    $HOME/.conda/envs/opi/bin/python opi_wf.py -c $SLURM_NTASKS -wrkd $calcdir -subd $SLURM_SUBMIT_DIR --atom_refs Atom-refs/SPO-x2c  
     echo "COPYING RESULTS DIR"
     cp -r $calcdir $SLURM_SUBMIT_DIR
 
