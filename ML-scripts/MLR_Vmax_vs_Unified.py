@@ -128,7 +128,7 @@ def extract_acceptor_features(acceptor_name: str, atom_rule: str):
 # Read feat_db (mol.db) — extract all iodine descriptors in one pass
 # ══════════════════════════════════════════════════════════════════════════════
 
-feat_db = connect("mol.db")
+feat_db = connect("ASE-databases/mol.db")
 
 feat_lookup = {}
 # Name → {vmax, monopole, c6, dipole_0, r2, scaffold, ring_charge}
