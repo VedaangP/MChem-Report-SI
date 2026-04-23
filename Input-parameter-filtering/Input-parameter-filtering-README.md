@@ -33,15 +33,15 @@
 
 **Prerequsities:**
 
-Needs the .csv files generated from running `feature-test.py` on different interaction databases
+Needs the .csv files generated from running `feature-test.py` on different interaction databases. Found in csvs folder. 
 
 **Usage:**
 
 ```bash
-python pareto_analysis.py Cl_all_combinations.csv Br_all_combinations.csv
+python pareto_analysis.py csvs/Cl.csv csvs/Br.csv
 ```
 ```bash
-python pareto_analysis.py results/*_all_combinations.csv
+python pareto_analysis.py csvs/*.csv
 ```
 
 **Steps:**
