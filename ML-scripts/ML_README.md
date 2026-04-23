@@ -30,21 +30,25 @@ The ML scripts are broadly split into 2 categories, the Multi-Linear Regression 
 ### `GB_individual` and `MLR_individual` 
 
 These are the scripts for training the model on individual databases
+
 Output: Parity Plot
 
 ### `GB_Rem_BX_6`
 
 The BX-6 scaffolds are excluded from the training set and heldout for the test set. Trained across all databases, so acceptor input parameters were also added.
+
 Output: Parity Plot 
 
 ### `GB_Rem_Br` and `MLR_Rem_Br` 
 
 The models were trained on the $\mathrm{F}^-$, $\mathrm{Cl}^-$ and $\mathrm{I}^-$ databases and the $\mathrm{Br}^-$ database is heldout as the test set. The acceptor input parameters are also added here, they are read from acceptor.db
+
 Output: Parity Plot
 
 ### `MLR_Vmax_vs_Unified.py`
 
 A single script to compare the Vmax and Unified MLR models. Trained across all databases, so acceptor input parameters were also added.
+
 Output: 
 - Parity Plot of Vmax vs Unified model
 - Residual Plot of Vmax vs Unified model
@@ -52,4 +56,5 @@ Output:
 ### `GB_Vmax` and `GB_individual`
 
 Trains GB Vmax and Unified models. Trained across all databases, so acceptor input parameters were also added.
+
 Output: Parity Plot
