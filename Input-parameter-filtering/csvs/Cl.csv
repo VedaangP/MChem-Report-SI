@@ -1,0 +1,512 @@
+Model_ID,N_features,Features,Train_R2_CV,Val_R2_CV,Gap,CV_RMSE,Adj_R2,AIC,BIC,Test_R2,Test_RMSE,Unstable,Rank
+508,8,"Monopole, Dipole_1, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9925,0.9811,0.0115,1.4063,0.9904,47.03,79.66,0.9861,1.3416,Scaffold_BX-6,1
+483,7,"Monopole, Dipole_1, Q_2, C6, r2, Polarizability, Polar_acc",0.9925,0.9811,0.0115,1.4063,0.9906,45.03,75.33,0.9861,1.3416,Scaffold_BX-6,2
+481,7,"Monopole, Dipole_1, Q_2, C6, r2, r2_acc, Polarizability",0.9925,0.9811,0.0115,1.4063,0.9906,45.03,75.33,0.9861,1.3416,Scaffold_BX-6,3
+403,6,"Monopole, Dipole_1, Q_2, C6, r2, Polarizability",0.9925,0.9811,0.0115,1.4063,0.9907,43.03,71.0,0.9861,1.3416,Scaffold_BX-6,4
+482,7,"Monopole, Dipole_1, Q_2, C6, r2, r2_acc, Polar_acc",0.9921,0.9798,0.0123,1.544,0.99,49.45,79.75,0.9735,1.8569,Scaffold_BX-6,5
+271,5,"Monopole, Dipole_1, Q_2, C6, r2",0.9921,0.9798,0.0123,1.544,0.9903,45.45,71.09,0.9735,1.8569,Scaffold_BX-6,6
+402,6,"Monopole, Dipole_1, Q_2, C6, r2, r2_acc",0.9921,0.9798,0.0123,1.544,0.9902,47.45,75.42,0.9735,1.8569,Scaffold_BX-6,7
+404,6,"Monopole, Dipole_1, Q_2, C6, r2, Polar_acc",0.9921,0.9798,0.0123,1.544,0.9902,47.45,75.42,0.9735,1.8569,Scaffold_BX-6,8
+486,7,"Monopole, Dipole_1, C6, r2, r2_acc, Polarizability, Polar_acc",0.9919,0.9783,0.0136,1.6005,0.9895,52.94,83.24,0.9914,1.0544,"Polarizability, Scaffold_BX-6",9
+282,5,"Monopole, Dipole_1, C6, r2, Polarizability",0.9919,0.9783,0.0136,1.6005,0.9899,48.94,74.58,0.9914,1.0544,"Polarizability, Scaffold_BX-6",10
+281,5,"Monopole, Dipole_1, C6, r2, r2_acc",0.9917,0.9783,0.0134,1.6533,0.9896,50.78,76.42,0.9846,1.414,Scaffold_BX-6,11
+412,6,"Monopole, Dipole_1, C6, r2, r2_acc, Polarizability",0.9919,0.9783,0.0136,1.6005,0.9897,50.94,78.91,0.9914,1.0544,"Polarizability, Scaffold_BX-6",12
+414,6,"Monopole, Dipole_1, C6, r2, Polarizability, Polar_acc",0.9919,0.9783,0.0136,1.6005,0.9897,50.94,78.91,0.9914,1.0544,"Polarizability, Scaffold_BX-6",13
+413,6,"Monopole, Dipole_1, C6, r2, r2_acc, Polar_acc",0.9917,0.9783,0.0134,1.6533,0.9895,52.78,80.75,0.9846,1.414,Scaffold_BX-6,14
+283,5,"Monopole, Dipole_1, C6, r2, Polar_acc",0.9917,0.9783,0.0134,1.6533,0.9896,50.78,76.42,0.9846,1.414,Scaffold_BX-6,15
+141,4,"Monopole, Dipole_1, C6, r2",0.9917,0.9783,0.0134,1.6533,0.9898,48.78,72.09,0.9846,1.414,Scaffold_BX-6,16
+502,8,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, r2_acc, Polarizability",0.993,0.9774,0.0156,1.5514,0.9909,43.26,75.89,0.9883,1.2352,"Scaffold_BX-6, Scaffold_Benzene",17
+467,7,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, Polarizability",0.993,0.9774,0.0156,1.5514,0.991,41.26,71.56,0.9883,1.2352,"Scaffold_BX-6, Scaffold_Benzene",18
+511,9,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.993,0.9774,0.0156,1.5514,0.9907,45.26,80.23,0.9883,1.2352,"Scaffold_BX-6, Scaffold_Benzene",19
+504,8,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, Polarizability, Polar_acc",0.993,0.9774,0.0156,1.5514,0.9909,43.26,75.89,0.9883,1.2352,"Scaffold_BX-6, Scaffold_Benzene",20
+477,7,"Monopole, Dipole_1, Q_0, C6, r2, r2_acc, Polar_acc",0.9919,0.9763,0.0156,1.773,0.9893,54.62,84.92,0.9832,1.4797,"Q_0, Scaffold_BX-6",21
+261,5,"Monopole, Dipole_1, Q_0, C6, r2",0.9919,0.9763,0.0156,1.773,0.9896,50.62,76.26,0.9832,1.4797,"Q_0, Scaffold_BX-6",22
+392,6,"Monopole, Dipole_1, Q_0, C6, r2, r2_acc",0.9919,0.9763,0.0156,1.773,0.9895,52.62,80.59,0.9832,1.4797,"Q_0, Scaffold_BX-6",23
+394,6,"Monopole, Dipole_1, Q_0, C6, r2, Polar_acc",0.9919,0.9763,0.0156,1.773,0.9895,52.62,80.59,0.9832,1.4797,"Q_0, Scaffold_BX-6",24
+503,8,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, r2_acc, Polar_acc",0.9923,0.9754,0.0168,1.8209,0.9898,51.43,84.06,0.974,1.8389,"Q_0, Q_2, Scaffold_BX-6",25
+382,6,"Monopole, Dipole_1, Q_0, Q_2, C6, r2",0.9923,0.9754,0.0168,1.8209,0.9902,47.43,75.4,0.974,1.8389,"Q_0, Q_2, Scaffold_BX-6",26
+466,7,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, r2_acc",0.9923,0.9754,0.0168,1.8209,0.99,49.43,79.73,0.974,1.8389,"Q_0, Q_2, Scaffold_BX-6",27
+468,7,"Monopole, Dipole_1, Q_0, Q_2, C6, r2, Polar_acc",0.9923,0.9754,0.0168,1.8209,0.99,49.43,79.73,0.974,1.8389,"Q_0, Q_2, Scaffold_BX-6",28
+393,6,"Monopole, Dipole_1, Q_0, C6, r2, Polarizability",0.9925,0.9746,0.018,1.7147,0.9903,46.76,74.73,0.9928,0.9684,"Scaffold_BX-6, Scaffold_Benzene",29
+507,8,"Monopole, Dipole_1, Q_0, C6, r2, r2_acc, Polarizability, Polar_acc",0.9925,0.9746,0.018,1.7147,0.9899,50.76,83.39,0.9928,0.9684,"Scaffold_BX-6, Scaffold_Benzene",30
+476,7,"Monopole, Dipole_1, Q_0, C6, r2, r2_acc, Polarizability",0.9925,0.9746,0.018,1.7147,0.9901,48.76,79.06,0.9928,0.9684,"Scaffold_BX-6, Scaffold_Benzene",31
+478,7,"Monopole, Dipole_1, Q_0, C6, r2, Polarizability, Polar_acc",0.9925,0.9746,0.018,1.7147,0.9901,48.76,79.06,0.9928,0.9684,"Scaffold_BX-6, Scaffold_Benzene",32
+506,8,"Monopole, Dipole_1, Q_0, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9913,0.9716,0.0197,1.6262,0.9889,58.51,91.14,0.9913,1.0614,"Q_2, Scaffold_BX-6",33
+472,7,"Monopole, Dipole_1, Q_0, Q_2, r2, r2_acc, Polarizability",0.9913,0.9716,0.0197,1.6262,0.989,56.51,86.81,0.9913,1.0614,"Q_2, Scaffold_BX-6",34
+387,6,"Monopole, Dipole_1, Q_0, Q_2, r2, Polarizability",0.9913,0.9716,0.0197,1.6262,0.9892,54.51,82.48,0.9913,1.0614,"Q_2, Scaffold_BX-6",35
+474,7,"Monopole, Dipole_1, Q_0, Q_2, r2, Polarizability, Polar_acc",0.9913,0.9716,0.0197,1.6262,0.989,56.51,86.81,0.9913,1.0614,"Q_2, Scaffold_BX-6",36
+287,5,"Monopole, Dipole_1, r2, r2_acc, Polarizability",0.9899,0.9707,0.0192,1.7394,0.9877,63.42,89.06,0.9907,1.0976,"Scaffold_BX-6, Scaffold_Benzene",37
+289,5,"Monopole, Dipole_1, r2, Polarizability, Polar_acc",0.9899,0.9707,0.0192,1.7394,0.9877,63.42,89.06,0.9907,1.0976,"Scaffold_BX-6, Scaffold_Benzene",38
+146,4,"Monopole, Dipole_1, r2, Polarizability",0.9899,0.9707,0.0192,1.7394,0.9879,61.42,84.73,0.9907,1.0976,"Scaffold_BX-6, Scaffold_Benzene",39
+416,6,"Monopole, Dipole_1, r2, r2_acc, Polarizability, Polar_acc",0.9899,0.9707,0.0192,1.7394,0.9875,65.42,93.39,0.9907,1.0976,"Scaffold_BX-6, Scaffold_Benzene",40
+480,7,"Monopole, Dipole_1, Q_0, r2, r2_acc, Polarizability, Polar_acc",0.991,0.97,0.0209,1.7475,0.9885,60.41,90.71,0.9902,1.1265,Scaffold_BX-6,41
+266,5,"Monopole, Dipole_1, Q_0, r2, Polarizability",0.991,0.97,0.0209,1.7475,0.9888,56.41,82.05,0.9902,1.1265,Scaffold_BX-6,42
+400,6,"Monopole, Dipole_1, Q_0, r2, Polarizability, Polar_acc",0.991,0.97,0.0209,1.7475,0.9886,58.41,86.38,0.9902,1.1265,Scaffold_BX-6,43
+398,6,"Monopole, Dipole_1, Q_0, r2, r2_acc, Polarizability",0.991,0.97,0.0209,1.7475,0.9886,58.41,86.38,0.9902,1.1265,Scaffold_BX-6,44
+410,6,"Monopole, Dipole_1, Q_2, r2, Polarizability, Polar_acc",0.9905,0.9699,0.0206,1.8143,0.9882,61.44,89.41,0.9921,1.0112,"Q_2, Scaffold_BX-6, Scaffold_Benzene",45
+408,6,"Monopole, Dipole_1, Q_2, r2, r2_acc, Polarizability",0.9905,0.9699,0.0206,1.8143,0.9882,61.44,89.41,0.9921,1.0112,"Q_2, Scaffold_BX-6, Scaffold_Benzene",46
+276,5,"Monopole, Dipole_1, Q_2, r2, Polarizability",0.9905,0.9699,0.0206,1.8143,0.9884,59.44,85.08,0.9921,1.0112,"Q_2, Scaffold_BX-6, Scaffold_Benzene",47
+485,7,"Monopole, Dipole_1, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9905,0.9699,0.0206,1.8143,0.988,63.44,93.74,0.9921,1.0112,"Q_2, Scaffold_BX-6, Scaffold_Benzene",48
+479,7,"Monopole, Dipole_1, Q_0, C6, r2_acc, Polarizability, Polar_acc",0.9881,0.9609,0.0272,2.1599,0.9845,82.67,112.97,0.9727,1.8838,Scaffold_BX-6,49
+263,5,"Monopole, Dipole_1, Q_0, C6, Polarizability",0.9881,0.9609,0.0272,2.1599,0.985,78.67,104.31,0.9727,1.8838,Scaffold_BX-6,50
+395,6,"Monopole, Dipole_1, Q_0, C6, r2_acc, Polarizability",0.9881,0.9609,0.0272,2.1599,0.9848,80.67,108.64,0.9727,1.8838,Scaffold_BX-6,51
+397,6,"Monopole, Dipole_1, Q_0, C6, Polarizability, Polar_acc",0.9881,0.9609,0.0272,2.1599,0.9848,80.67,108.64,0.9727,1.8838,Scaffold_BX-6,52
+49,3,"Monopole, Dipole_1, r2",0.9803,0.952,0.0283,2.3205,0.9765,111.23,132.2,0.9892,1.1854,Scaffold_BX-6,53
+288,5,"Monopole, Dipole_1, r2, r2_acc, Polar_acc",0.9803,0.952,0.0283,2.3205,0.9758,115.23,140.86,0.9892,1.1854,Scaffold_BX-6,54
+145,4,"Monopole, Dipole_1, r2, r2_acc",0.9803,0.952,0.0283,2.3205,0.9761,113.23,136.53,0.9892,1.1854,Scaffold_BX-6,55
+147,4,"Monopole, Dipole_1, r2, Polar_acc",0.9803,0.952,0.0283,2.3205,0.9761,113.23,136.53,0.9892,1.1854,Scaffold_BX-6,56
+267,5,"Monopole, Dipole_1, Q_0, r2, Polar_acc",0.9853,0.9501,0.0351,2.2515,0.9816,94.4,120.04,0.9905,1.1127,"Q_0, Scaffold_BX-6",57
+132,4,"Monopole, Dipole_1, Q_0, r2",0.9853,0.9501,0.0351,2.2515,0.9819,92.4,115.71,0.9905,1.1127,"Q_0, Scaffold_BX-6",58
+399,6,"Monopole, Dipole_1, Q_0, r2, r2_acc, Polar_acc",0.9853,0.9501,0.0351,2.2515,0.9813,96.4,124.37,0.9905,1.1127,"Q_0, Scaffold_BX-6",59
+265,5,"Monopole, Dipole_1, Q_0, r2, r2_acc",0.9853,0.9501,0.0351,2.2515,0.9816,94.4,120.04,0.9905,1.1127,"Q_0, Scaffold_BX-6",60
+275,5,"Monopole, Dipole_1, Q_2, r2, r2_acc",0.9833,0.947,0.0362,2.6406,0.9779,108.29,133.93,0.9895,1.1696,"Q_2, Scaffold_BX-6, Scaffold_Benzene",61
+137,4,"Monopole, Dipole_1, Q_2, r2",0.9833,0.947,0.0362,2.6406,0.9782,106.29,129.6,0.9895,1.1696,"Q_2, Scaffold_BX-6, Scaffold_Benzene",62
+277,5,"Monopole, Dipole_1, Q_2, r2, Polar_acc",0.9833,0.947,0.0362,2.6406,0.9779,108.29,133.93,0.9895,1.1696,"Q_2, Scaffold_BX-6, Scaffold_Benzene",63
+409,6,"Monopole, Dipole_1, Q_2, r2, r2_acc, Polar_acc",0.9833,0.947,0.0362,2.6406,0.9775,110.29,138.26,0.9895,1.1696,"Q_2, Scaffold_BX-6, Scaffold_Benzene",64
+505,8,"Monopole, Dipole_1, Q_0, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9886,0.9431,0.0456,2.8596,0.9843,84.38,117.01,0.9695,1.9924,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",65
+384,6,"Monopole, Dipole_1, Q_0, Q_2, C6, Polarizability",0.9886,0.9431,0.0456,2.8596,0.9848,80.38,108.35,0.9695,1.9924,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",66
+469,7,"Monopole, Dipole_1, Q_0, Q_2, C6, r2_acc, Polarizability",0.9886,0.9431,0.0456,2.8596,0.9846,82.38,112.68,0.9695,1.9924,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",67
+471,7,"Monopole, Dipole_1, Q_0, Q_2, C6, Polarizability, Polar_acc",0.9886,0.9431,0.0456,2.8596,0.9846,82.38,112.68,0.9695,1.9924,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",68
+415,6,"Monopole, Dipole_1, C6, r2_acc, Polarizability, Polar_acc",0.9835,0.943,0.0405,2.649,0.9781,108.44,136.41,0.9393,2.8092,Scaffold_BX-6,69
+286,5,"Monopole, Dipole_1, C6, Polarizability, Polar_acc",0.9835,0.943,0.0405,2.649,0.9784,106.44,132.07,0.9393,2.8092,Scaffold_BX-6,70
+143,4,"Monopole, Dipole_1, C6, Polarizability",0.9835,0.943,0.0405,2.649,0.9787,104.44,127.74,0.9393,2.8092,Scaffold_BX-6,71
+284,5,"Monopole, Dipole_1, C6, r2_acc, Polarizability",0.9835,0.943,0.0405,2.649,0.9784,106.44,132.07,0.9393,2.8092,Scaffold_BX-6,72
+268,5,"Monopole, Dipole_1, Q_0, r2_acc, Polarizability",0.9834,0.9412,0.0423,2.4077,0.9793,103.4,129.04,0.9891,1.1882,Scaffold_BX-6,73
+270,5,"Monopole, Dipole_1, Q_0, Polarizability, Polar_acc",0.9834,0.9412,0.0423,2.4077,0.9793,103.4,129.04,0.9891,1.1882,Scaffold_BX-6,74
+401,6,"Monopole, Dipole_1, Q_0, r2_acc, Polarizability, Polar_acc",0.9834,0.9412,0.0423,2.4077,0.9789,105.4,133.37,0.9891,1.1882,Scaffold_BX-6,75
+134,4,"Monopole, Dipole_1, Q_0, Polarizability",0.9834,0.9412,0.0423,2.4077,0.9796,101.4,124.71,0.9891,1.1882,Scaffold_BX-6,76
+257,5,"Monopole, Dipole_1, Q_0, Q_2, r2",0.9857,0.9394,0.0463,2.7676,0.9816,94.23,119.87,0.9902,1.1268,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",77
+273,5,"Monopole, Dipole_1, Q_2, C6, Polarizability",0.9857,0.9394,0.0463,2.8986,0.9798,101.25,126.88,0.9663,2.0938,"Q_2, Scaffold_BX-6",78
+407,6,"Monopole, Dipole_1, Q_2, C6, Polarizability, Polar_acc",0.9857,0.9394,0.0463,2.8986,0.9795,103.25,131.21,0.9663,2.0938,"Q_2, Scaffold_BX-6",79
+405,6,"Monopole, Dipole_1, Q_2, C6, r2_acc, Polarizability",0.9857,0.9394,0.0463,2.8986,0.9795,103.25,131.21,0.9663,2.0938,"Q_2, Scaffold_BX-6",80
+388,6,"Monopole, Dipole_1, Q_0, Q_2, r2, Polar_acc",0.9857,0.9394,0.0463,2.7676,0.9813,96.23,124.2,0.9902,1.1268,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",81
+386,6,"Monopole, Dipole_1, Q_0, Q_2, r2, r2_acc",0.9857,0.9394,0.0463,2.7676,0.9813,96.23,124.2,0.9902,1.1268,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",82
+473,7,"Monopole, Dipole_1, Q_0, Q_2, r2, r2_acc, Polar_acc",0.9857,0.9394,0.0463,2.7676,0.981,98.23,128.53,0.9902,1.1268,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",83
+484,7,"Monopole, Dipole_1, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9857,0.9394,0.0463,2.8986,0.9792,105.25,135.54,0.9663,2.0938,"Q_2, Scaffold_BX-6",84
+448,6,"Dipole_1, Q_0, C6, r2, r2_acc, Polarizability",0.9834,0.9387,0.0447,2.5075,0.9789,105.35,133.32,0.9807,1.5846,Scaffold_BX-6,85
+337,5,"Dipole_1, Q_0, C6, r2, Polarizability",0.9834,0.9387,0.0447,2.5075,0.9793,103.35,128.98,0.9807,1.5846,Scaffold_BX-6,86
+450,6,"Dipole_1, Q_0, C6, r2, Polarizability, Polar_acc",0.9834,0.9387,0.0447,2.5075,0.9789,105.35,133.32,0.9807,1.5846,Scaffold_BX-6,87
+499,7,"Dipole_1, Q_0, C6, r2, r2_acc, Polarizability, Polar_acc",0.9834,0.9387,0.0447,2.5075,0.9786,107.35,137.65,0.9807,1.5846,Scaffold_BX-6,88
+290,5,"Monopole, Dipole_1, r2_acc, Polarizability, Polar_acc",0.9737,0.9328,0.0409,2.6655,0.9677,137.02,162.66,0.9851,1.393,Scaffold_BX-6,89
+51,3,"Monopole, Dipole_1, Polarizability",0.9737,0.9328,0.0409,2.6655,0.9687,133.02,153.99,0.9851,1.393,Scaffold_BX-6,90
+148,4,"Monopole, Dipole_1, r2_acc, Polarizability",0.9737,0.9328,0.0409,2.6655,0.9682,135.02,158.33,0.9851,1.393,Scaffold_BX-6,91
+150,4,"Monopole, Dipole_1, Polarizability, Polar_acc",0.9737,0.9328,0.0409,2.6655,0.9682,135.02,158.33,0.9851,1.393,Scaffold_BX-6,92
+411,6,"Monopole, Dipole_1, Q_2, r2_acc, Polarizability, Polar_acc",0.9803,0.9309,0.0494,3.0362,0.9728,124.75,152.71,0.9867,1.3126,"Q_2, Scaffold_BX-6, Scaffold_Benzene",93
+280,5,"Monopole, Dipole_1, Q_2, Polarizability, Polar_acc",0.9803,0.9309,0.0494,3.0362,0.9732,122.75,148.38,0.9867,1.3126,"Q_2, Scaffold_BX-6, Scaffold_Benzene",94
+139,4,"Monopole, Dipole_1, Q_2, Polarizability",0.9803,0.9309,0.0494,3.0362,0.9737,120.75,144.05,0.9867,1.3126,"Q_2, Scaffold_BX-6, Scaffold_Benzene",95
+278,5,"Monopole, Dipole_1, Q_2, r2_acc, Polarizability",0.9803,0.9309,0.0494,3.0362,0.9732,122.75,148.38,0.9867,1.3126,"Q_2, Scaffold_BX-6, Scaffold_Benzene",96
+391,6,"Monopole, Dipole_1, Q_0, Q_2, Polarizability, Polar_acc",0.9841,0.9291,0.055,2.9926,0.9791,104.72,132.69,0.9886,1.2154,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",97
+389,6,"Monopole, Dipole_1, Q_0, Q_2, r2_acc, Polarizability",0.9841,0.9291,0.055,2.9926,0.9791,104.72,132.69,0.9886,1.2154,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",98
+75,3,"Dipole_1, Q_0, C6",0.9726,0.9291,0.0436,2.503,0.9682,134.1,155.08,0.959,2.308,Scaffold_BX-6,99
+340,5,"Dipole_1, Q_0, C6, r2_acc, Polar_acc",0.9726,0.9291,0.0436,2.503,0.9673,138.1,163.74,0.959,2.308,Scaffold_BX-6,100
+194,4,"Dipole_1, Q_0, C6, Polar_acc",0.9726,0.9291,0.0436,2.503,0.9678,136.1,159.41,0.959,2.308,Scaffold_BX-6,101
+475,7,"Monopole, Dipole_1, Q_0, Q_2, r2_acc, Polarizability, Polar_acc",0.9841,0.9291,0.055,2.9926,0.9788,106.72,137.02,0.9886,1.2154,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",102
+259,5,"Monopole, Dipole_1, Q_0, Q_2, Polarizability",0.9841,0.9291,0.055,2.9926,0.9794,102.72,128.36,0.9886,1.2154,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",103
+192,4,"Dipole_1, Q_0, C6, r2_acc",0.9726,0.9291,0.0436,2.503,0.9678,136.1,159.41,0.959,2.308,Scaffold_BX-6,104
+196,4,"Dipole_1, Q_0, r2, Polarizability",0.9809,0.9281,0.0528,2.6357,0.9765,112.08,135.39,0.9865,1.3239,Scaffold_BX-6,105
+452,6,"Dipole_1, Q_0, r2, r2_acc, Polarizability, Polar_acc",0.9809,0.9281,0.0528,2.6357,0.9757,116.08,144.05,0.9865,1.3239,Scaffold_BX-6,106
+342,5,"Dipole_1, Q_0, r2, r2_acc, Polarizability",0.9809,0.9281,0.0528,2.6357,0.9761,114.08,139.72,0.9865,1.3239,Scaffold_BX-6,107
+344,5,"Dipole_1, Q_0, r2, Polarizability, Polar_acc",0.9809,0.9281,0.0528,2.6357,0.9761,114.08,139.72,0.9865,1.3239,Scaffold_BX-6,108
+327,5,"Dipole_1, Q_0, Q_2, C6, r2_acc",0.9732,0.9257,0.0475,2.672,0.9676,137.38,163.02,0.956,2.3921,"Q_2, Scaffold_BX-6, Scaffold_Benzene",109
+186,4,"Dipole_1, Q_0, Q_2, C6",0.9732,0.9257,0.0475,2.672,0.9681,135.38,158.69,0.956,2.3921,"Q_2, Scaffold_BX-6, Scaffold_Benzene",110
+442,6,"Dipole_1, Q_0, Q_2, C6, r2_acc, Polar_acc",0.9732,0.9257,0.0475,2.672,0.967,139.38,167.35,0.956,2.3921,"Q_2, Scaffold_BX-6, Scaffold_Benzene",111
+329,5,"Dipole_1, Q_0, Q_2, C6, Polar_acc",0.9732,0.9257,0.0475,2.672,0.9676,137.38,163.02,0.956,2.3921,"Q_2, Scaffold_BX-6, Scaffold_Benzene",112
+262,5,"Monopole, Dipole_1, Q_0, C6, r2_acc",0.9808,0.9249,0.0558,2.673,0.9758,115.06,140.7,0.9796,1.6285,Scaffold_BX-6,113
+396,6,"Monopole, Dipole_1, Q_0, C6, r2_acc, Polar_acc",0.9808,0.9249,0.0558,2.673,0.9754,117.06,145.03,0.9796,1.6285,Scaffold_BX-6,114
+131,4,"Monopole, Dipole_1, Q_0, C6",0.9808,0.9249,0.0558,2.673,0.9762,113.06,136.37,0.9796,1.6285,Scaffold_BX-6,115
+264,5,"Monopole, Dipole_1, Q_0, C6, Polar_acc",0.9808,0.9249,0.0558,2.673,0.9758,115.06,140.7,0.9796,1.6285,Scaffold_BX-6,116
+78,3,"Dipole_1, Q_0, Polarizability",0.97,0.9209,0.0491,2.7075,0.9649,141.79,162.77,0.9617,2.2299,Scaffold_BX-6,117
+200,4,"Dipole_1, Q_0, Polarizability, Polar_acc",0.97,0.9209,0.0491,2.7075,0.9643,143.79,167.1,0.9617,2.2299,Scaffold_BX-6,118
+198,4,"Dipole_1, Q_0, r2_acc, Polarizability",0.97,0.9209,0.0491,2.7075,0.9643,143.79,167.1,0.9617,2.2299,Scaffold_BX-6,119
+345,5,"Dipole_1, Q_0, r2_acc, Polarizability, Polar_acc",0.97,0.9209,0.0491,2.7075,0.9638,145.79,171.43,0.9617,2.2299,Scaffold_BX-6,120
+272,5,"Monopole, Dipole_1, Q_2, C6, r2_acc",0.9774,0.9196,0.0578,3.2262,0.9696,132.35,157.99,0.9736,1.8514,"Q_2, Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",121
+136,4,"Monopole, Dipole_1, Q_2, C6",0.9774,0.9196,0.0578,3.2262,0.9701,130.35,153.66,0.9736,1.8514,"Q_2, Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",122
+406,6,"Monopole, Dipole_1, Q_2, C6, r2_acc, Polar_acc",0.9774,0.9196,0.0578,3.2262,0.9692,134.35,162.32,0.9736,1.8514,"Q_2, Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",123
+274,5,"Monopole, Dipole_1, Q_2, C6, Polar_acc",0.9774,0.9196,0.0578,3.2262,0.9696,132.35,157.99,0.9736,1.8514,"Q_2, Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",124
+331,5,"Dipole_1, Q_0, Q_2, r2, Polarizability",0.9817,0.9189,0.0627,3.1362,0.9765,112.83,138.47,0.9856,1.3672,"Q_2, Scaffold_BX-6, Scaffold_Benzene",125
+385,6,"Monopole, Dipole_1, Q_0, Q_2, C6, Polar_acc",0.9816,0.9189,0.0627,3.0827,0.976,115.33,143.3,0.9778,1.697,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",126
+383,6,"Monopole, Dipole_1, Q_0, Q_2, C6, r2_acc",0.9816,0.9189,0.0627,3.0827,0.976,115.33,143.3,0.9778,1.697,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",127
+444,6,"Dipole_1, Q_0, Q_2, r2, r2_acc, Polarizability",0.9817,0.9189,0.0627,3.1362,0.9761,114.83,142.8,0.9856,1.3672,"Q_2, Scaffold_BX-6, Scaffold_Benzene",128
+498,7,"Dipole_1, Q_0, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9817,0.9189,0.0627,3.1362,0.9758,116.83,147.13,0.9856,1.3672,"Q_2, Scaffold_BX-6, Scaffold_Benzene",129
+446,6,"Dipole_1, Q_0, Q_2, r2, Polarizability, Polar_acc",0.9817,0.9189,0.0627,3.1362,0.9761,114.83,142.8,0.9856,1.3672,"Q_2, Scaffold_BX-6, Scaffold_Benzene",130
+256,5,"Monopole, Dipole_1, Q_0, Q_2, C6",0.9816,0.9189,0.0627,3.0827,0.9764,113.33,138.97,0.9778,1.697,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",131
+470,7,"Monopole, Dipole_1, Q_0, Q_2, C6, r2_acc, Polar_acc",0.9816,0.9189,0.0627,3.0827,0.9756,117.33,147.63,0.9778,1.697,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",132
+510,8,"Dipole_1, Q_0, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9842,0.9165,0.0677,3.3797,0.9783,109.04,141.67,0.9829,1.4925,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",133
+496,7,"Dipole_1, Q_0, Q_2, C6, r2, Polarizability, Polar_acc",0.9842,0.9165,0.0677,3.3797,0.9787,107.04,137.34,0.9829,1.4925,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",134
+494,7,"Dipole_1, Q_0, Q_2, C6, r2, r2_acc, Polarizability",0.9842,0.9165,0.0677,3.3797,0.9787,107.04,137.34,0.9829,1.4925,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",135
+439,6,"Dipole_1, Q_0, Q_2, C6, r2, Polarizability",0.9842,0.9165,0.0677,3.3797,0.979,105.04,133.01,0.9829,1.4925,"Q_0, Q_2, Scaffold_BX-6, Scaffold_Benzene",136
+142,4,"Monopole, Dipole_1, C6, r2_acc",0.9682,0.9161,0.0521,2.8723,0.9617,149.14,172.44,0.9752,1.7962,"Scaffold_BX-6, Scaffold_Benzene",137
+285,5,"Monopole, Dipole_1, C6, r2_acc, Polar_acc",0.9682,0.9161,0.0521,2.8723,0.9611,151.14,176.78,0.9752,1.7962,"Scaffold_BX-6, Scaffold_Benzene",138
+144,4,"Monopole, Dipole_1, C6, Polar_acc",0.9682,0.9161,0.0521,2.8723,0.9617,149.14,172.44,0.9752,1.7962,"Scaffold_BX-6, Scaffold_Benzene",139
+48,3,"Monopole, Dipole_1, C6",0.9682,0.9161,0.0521,2.8723,0.9623,147.14,168.11,0.9752,1.7962,"Scaffold_BX-6, Scaffold_Benzene",140
+447,6,"Dipole_1, Q_0, Q_2, r2_acc, Polarizability, Polar_acc",0.9709,0.9153,0.0555,2.9731,0.9637,146.69,174.66,0.9577,2.3455,"Q_2, Scaffold_BX-6, Scaffold_Benzene",141
+189,4,"Dipole_1, Q_0, Q_2, Polarizability",0.9709,0.9153,0.0555,2.9731,0.9648,142.69,166.0,0.9577,2.3455,"Q_2, Scaffold_BX-6, Scaffold_Benzene",142
+333,5,"Dipole_1, Q_0, Q_2, r2_acc, Polarizability",0.9709,0.9153,0.0555,2.9731,0.9643,144.69,170.33,0.9577,2.3455,"Q_2, Scaffold_BX-6, Scaffold_Benzene",143
+335,5,"Dipole_1, Q_0, Q_2, Polarizability, Polar_acc",0.9709,0.9153,0.0555,2.9731,0.9643,144.69,170.33,0.9577,2.3455,"Q_2, Scaffold_BX-6, Scaffold_Benzene",144
+497,7,"Dipole_1, Q_0, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9764,0.9136,0.0627,2.9082,0.9699,133.32,163.62,0.9503,2.5404,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",145
+443,6,"Dipole_1, Q_0, Q_2, C6, Polarizability, Polar_acc",0.9764,0.9136,0.0627,2.9082,0.9704,131.32,159.29,0.9503,2.5404,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",146
+328,5,"Dipole_1, Q_0, Q_2, C6, Polarizability",0.9764,0.9136,0.0627,2.9082,0.9708,129.32,154.96,0.9503,2.5404,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",147
+441,6,"Dipole_1, Q_0, Q_2, C6, r2_acc, Polarizability",0.9764,0.9136,0.0627,2.9082,0.9704,131.32,159.29,0.9503,2.5404,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",148
+193,4,"Dipole_1, Q_0, C6, Polarizability",0.9757,0.9116,0.0641,2.9228,0.9706,129.19,152.49,0.9555,2.4037,"C6, Polarizability, Scaffold_BX-6",149
+339,5,"Dipole_1, Q_0, C6, r2_acc, Polarizability",0.9757,0.9116,0.0641,2.9228,0.9701,131.19,156.82,0.9555,2.4037,"C6, Polarizability, Scaffold_BX-6",150
+451,6,"Dipole_1, Q_0, C6, r2_acc, Polarizability, Polar_acc",0.9757,0.9116,0.0641,2.9228,0.9696,133.19,161.16,0.9555,2.4037,"C6, Polarizability, Scaffold_BX-6",151
+341,5,"Dipole_1, Q_0, C6, Polarizability, Polar_acc",0.9757,0.9116,0.0641,2.9228,0.9701,131.19,156.82,0.9555,2.4037,"C6, Polarizability, Scaffold_BX-6",152
+326,5,"Dipole_1, Q_0, Q_2, C6, r2",0.9789,0.9112,0.0677,3.0174,0.9733,122.52,148.16,0.967,2.0714,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",153
+440,6,"Dipole_1, Q_0, Q_2, C6, r2, Polar_acc",0.9789,0.9112,0.0677,3.0174,0.9729,124.52,152.49,0.967,2.0714,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",154
+495,7,"Dipole_1, Q_0, Q_2, C6, r2, r2_acc, Polar_acc",0.9789,0.9112,0.0677,3.0174,0.9725,126.52,156.82,0.967,2.0714,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",155
+438,6,"Dipole_1, Q_0, Q_2, C6, r2, r2_acc",0.9789,0.9112,0.0677,3.0174,0.9729,124.52,152.49,0.967,2.0714,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",156
+191,4,"Dipole_1, Q_0, C6, r2",0.9782,0.9099,0.0683,2.9285,0.973,122.54,145.85,0.9699,1.9762,"r2, Scaffold_BX-6",157
+449,6,"Dipole_1, Q_0, C6, r2, r2_acc, Polar_acc",0.9782,0.9099,0.0683,2.9285,0.9722,126.54,154.51,0.9699,1.9762,"r2, Scaffold_BX-6",158
+338,5,"Dipole_1, Q_0, C6, r2, Polar_acc",0.9782,0.9099,0.0683,2.9285,0.9726,124.54,150.18,0.9699,1.9762,"r2, Scaffold_BX-6",159
+336,5,"Dipole_1, Q_0, C6, r2, r2_acc",0.9782,0.9099,0.0683,2.9285,0.9726,124.54,150.18,0.9699,1.9762,"r2, Scaffold_BX-6",160
+343,5,"Dipole_1, Q_0, r2, r2_acc, Polar_acc",0.9648,0.9052,0.0596,3.0371,0.9569,158.91,184.55,0.955,2.4182,Scaffold_BX-6,161
+195,4,"Dipole_1, Q_0, r2, r2_acc",0.9648,0.9052,0.0596,3.0371,0.9576,156.91,180.22,0.955,2.4182,Scaffold_BX-6,162
+197,4,"Dipole_1, Q_0, r2, Polar_acc",0.9648,0.9052,0.0596,3.0371,0.9576,156.91,180.22,0.955,2.4182,Scaffold_BX-6,163
+76,3,"Dipole_1, Q_0, r2",0.9648,0.9052,0.0596,3.0371,0.9582,154.91,175.89,0.955,2.4182,Scaffold_BX-6,164
+334,5,"Dipole_1, Q_0, Q_2, r2_acc, Polar_acc",0.9594,0.9016,0.0578,3.2165,0.9505,169.43,195.07,0.9446,2.6829,Scaffold_BX-6,165
+74,3,"Dipole_1, Q_0, Q_2",0.9594,0.9016,0.0578,3.2165,0.952,165.43,186.4,0.9446,2.6829,Scaffold_BX-6,166
+190,4,"Dipole_1, Q_0, Q_2, Polar_acc",0.9594,0.9016,0.0578,3.2165,0.9513,167.43,190.73,0.9446,2.6829,Scaffold_BX-6,167
+188,4,"Dipole_1, Q_0, Q_2, r2_acc",0.9594,0.9016,0.0578,3.2165,0.9513,167.43,190.73,0.9446,2.6829,Scaffold_BX-6,168
+445,6,"Dipole_1, Q_0, Q_2, r2, r2_acc, Polar_acc",0.9666,0.9007,0.0659,3.3261,0.958,157.74,185.71,0.9485,2.5876,"Q_2, Scaffold_BX-6, Scaffold_Benzene",169
+330,5,"Dipole_1, Q_0, Q_2, r2, r2_acc",0.9666,0.9007,0.0659,3.3261,0.9587,155.74,181.38,0.9485,2.5876,"Q_2, Scaffold_BX-6, Scaffold_Benzene",170
+187,4,"Dipole_1, Q_0, Q_2, r2",0.9666,0.9007,0.0659,3.3261,0.9593,153.74,177.05,0.9485,2.5876,"Q_2, Scaffold_BX-6, Scaffold_Benzene",171
+332,5,"Dipole_1, Q_0, Q_2, r2, Polar_acc",0.9666,0.9007,0.0659,3.3261,0.9587,155.74,181.38,0.9485,2.5876,"Q_2, Scaffold_BX-6, Scaffold_Benzene",172
+297,5,"Monopole, Q_0, Q_2, r2, Polar_acc",0.9587,0.8996,0.0591,3.2216,0.95,170.31,195.95,0.9534,2.46,"Scaffold_BX-6, Scaffold_Benzene",173
+424,6,"Monopole, Q_0, Q_2, r2, r2_acc, Polar_acc",0.9587,0.8996,0.0591,3.2216,0.9492,172.31,200.28,0.9534,2.46,"Scaffold_BX-6, Scaffold_Benzene",174
+295,5,"Monopole, Q_0, Q_2, r2, r2_acc",0.9587,0.8996,0.0591,3.2216,0.95,170.31,195.95,0.9534,2.46,"Scaffold_BX-6, Scaffold_Benzene",175
+152,4,"Monopole, Q_0, Q_2, r2",0.9587,0.8996,0.0591,3.2216,0.9507,168.31,191.62,0.9534,2.46,"Scaffold_BX-6, Scaffold_Benzene",176
+426,6,"Monopole, Q_0, Q_2, r2_acc, Polarizability, Polar_acc",0.9588,0.8985,0.0604,3.2482,0.9492,172.23,200.2,0.9539,2.4488,"Scaffold_BX-6, Scaffold_Benzene",177
+154,4,"Monopole, Q_0, Q_2, Polarizability",0.9588,0.8985,0.0604,3.2482,0.9508,168.23,191.54,0.9539,2.4488,"Scaffold_BX-6, Scaffold_Benzene",178
+300,5,"Monopole, Q_0, Q_2, Polarizability, Polar_acc",0.9588,0.8985,0.0604,3.2482,0.95,170.23,195.87,0.9539,2.4488,"Scaffold_BX-6, Scaffold_Benzene",179
+298,5,"Monopole, Q_0, Q_2, r2_acc, Polarizability",0.9588,0.8985,0.0604,3.2482,0.95,170.23,195.87,0.9539,2.4488,"Scaffold_BX-6, Scaffold_Benzene",180
+457,6,"Dipole_1, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9744,0.8966,0.0779,3.7251,0.9637,146.79,174.76,0.978,1.6926,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",181
+354,5,"Dipole_1, Q_2, r2, Polarizability, Polar_acc",0.9744,0.8966,0.0779,3.7251,0.9642,144.79,170.43,0.978,1.6926,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",182
+206,4,"Dipole_1, Q_2, r2, Polarizability",0.9744,0.8966,0.0779,3.7251,0.9648,142.79,166.1,0.978,1.6926,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",183
+352,5,"Dipole_1, Q_2, r2, r2_acc, Polarizability",0.9744,0.8966,0.0779,3.7251,0.9642,144.79,170.43,0.978,1.6926,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",184
+390,6,"Monopole, Dipole_1, Q_0, Q_2, r2_acc, Polar_acc",0.9602,0.8965,0.0637,3.338,0.9505,170.35,198.32,0.9424,2.7351,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",185
+130,4,"Monopole, Dipole_1, Q_0, Q_2",0.9602,0.8965,0.0637,3.338,0.952,166.35,189.66,0.9424,2.7351,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",186
+260,5,"Monopole, Dipole_1, Q_0, Q_2, Polar_acc",0.9602,0.8965,0.0637,3.338,0.9512,168.35,193.99,0.9424,2.7351,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",187
+258,5,"Monopole, Dipole_1, Q_0, Q_2, r2_acc",0.9602,0.8965,0.0637,3.338,0.9512,168.35,193.99,0.9424,2.7351,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",188
+421,6,"Monopole, Q_0, Q_2, C6, r2_acc, Polar_acc",0.9599,0.8951,0.0648,3.3277,0.9504,170.52,198.49,0.9562,2.3852,"Scaffold_BX-6, Scaffold_Benzene",189
+292,5,"Monopole, Q_0, Q_2, C6, r2_acc",0.9599,0.8951,0.0648,3.3277,0.9511,168.52,194.16,0.9562,2.3852,"Scaffold_BX-6, Scaffold_Benzene",190
+151,4,"Monopole, Q_0, Q_2, C6",0.9599,0.8951,0.0648,3.3277,0.9519,166.52,189.83,0.9562,2.3852,"Scaffold_BX-6, Scaffold_Benzene",191
+294,5,"Monopole, Q_0, Q_2, C6, Polar_acc",0.9599,0.8951,0.0648,3.3277,0.9511,168.52,194.16,0.9562,2.3852,"Scaffold_BX-6, Scaffold_Benzene",192
+369,5,"Q_0, Q_2, r2, Polarizability, Polar_acc",0.9589,0.893,0.0659,3.3613,0.9499,170.45,196.09,0.9549,2.4221,"Scaffold_BX-6, Scaffold_Benzene",193
+463,6,"Q_0, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9589,0.893,0.0659,3.3613,0.9491,172.45,200.42,0.9549,2.4221,"Scaffold_BX-6, Scaffold_Benzene",194
+226,4,"Q_0, Q_2, r2, Polarizability",0.9589,0.893,0.0659,3.3613,0.9506,168.45,191.76,0.9549,2.4221,"Scaffold_BX-6, Scaffold_Benzene",195
+367,5,"Q_0, Q_2, r2, r2_acc, Polarizability",0.9589,0.893,0.0659,3.3613,0.9499,170.45,196.09,0.9549,2.4221,"Scaffold_BX-6, Scaffold_Benzene",196
+346,5,"Dipole_1, Q_2, C6, r2, r2_acc",0.972,0.8928,0.0792,3.7042,0.962,149.45,175.09,0.9491,2.5721,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",197
+201,4,"Dipole_1, Q_2, C6, r2",0.972,0.8928,0.0792,3.7042,0.9626,147.45,170.76,0.9491,2.5721,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",198
+348,5,"Dipole_1, Q_2, C6, r2, Polar_acc",0.972,0.8928,0.0792,3.7042,0.962,149.45,175.09,0.9491,2.5721,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",199
+454,6,"Dipole_1, Q_2, C6, r2, r2_acc, Polar_acc",0.972,0.8928,0.0792,3.7042,0.9614,151.45,179.42,0.9491,2.5721,"Scaffold_BX-6, Scaffold_Benzene, Scaffold_Pyrimidine",200
+456,6,"Dipole_1, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9682,0.8918,0.0764,3.6649,0.9577,158.41,186.38,0.9059,3.4975,"Scaffold_BX-6, Scaffold_Pyrimidine",201
+349,5,"Dipole_1, Q_2, C6, r2_acc, Polarizability",0.9682,0.8918,0.0764,3.6649,0.9583,156.41,182.05,0.9059,3.4975,"Scaffold_BX-6, Scaffold_Pyrimidine",202
+203,4,"Dipole_1, Q_2, C6, Polarizability",0.9682,0.8918,0.0764,3.6649,0.959,154.41,177.71,0.9059,3.4975,"Scaffold_BX-6, Scaffold_Pyrimidine",203
+351,5,"Dipole_1, Q_2, C6, Polarizability, Polar_acc",0.9682,0.8918,0.0764,3.6649,0.9583,156.41,182.05,0.9059,3.4975,"Scaffold_BX-6, Scaffold_Pyrimidine",204
+172,4,"Monopole, Q_2, r2, Polar_acc",0.9569,0.8895,0.0674,3.5004,0.9478,172.66,195.97,0.9579,2.3383,—,205
+318,5,"Monopole, Q_2, r2, r2_acc, Polar_acc",0.9569,0.8895,0.0674,3.5004,0.947,174.66,200.3,0.9579,2.3383,—,206
+170,4,"Monopole, Q_2, r2, r2_acc",0.9569,0.8895,0.0674,3.5004,0.9478,172.66,195.97,0.9579,2.3383,—,207
+60,3,"Monopole, Q_2, r2",0.9569,0.8895,0.0674,3.5004,0.9486,170.66,191.64,0.9579,2.3383,—,208
+80,3,"Dipole_1, Q_2, C6",0.9494,0.8888,0.0606,3.5414,0.9404,181.94,202.92,0.8842,3.8793,—,209
+204,4,"Dipole_1, Q_2, C6, Polar_acc",0.9494,0.8888,0.0606,3.5414,0.9395,183.94,207.25,0.8842,3.8793,—,210
+202,4,"Dipole_1, Q_2, C6, r2_acc",0.9494,0.8888,0.0606,3.5414,0.9395,183.94,207.25,0.8842,3.8793,—,211
+350,5,"Dipole_1, Q_2, C6, r2_acc, Polar_acc",0.9494,0.8888,0.0606,3.5414,0.9385,185.94,211.58,0.8842,3.8793,—,212
+155,4,"Monopole, Q_0, Q_2, Polar_acc",0.9533,0.8883,0.0651,3.475,0.9439,178.15,201.45,0.9444,2.6871,"Scaffold_BX-6, Scaffold_Benzene",213
+299,5,"Monopole, Q_0, Q_2, r2_acc, Polar_acc",0.9533,0.8883,0.0651,3.475,0.9431,180.15,205.78,0.9444,2.6871,"Scaffold_BX-6, Scaffold_Benzene",214
+53,3,"Monopole, Q_0, Q_2",0.9533,0.8883,0.0651,3.475,0.9448,176.15,197.12,0.9444,2.6871,"Scaffold_BX-6, Scaffold_Benzene",215
+153,4,"Monopole, Q_0, Q_2, r2_acc",0.9533,0.8883,0.0651,3.475,0.9439,178.15,201.45,0.9444,2.6871,"Scaffold_BX-6, Scaffold_Benzene",216
+347,5,"Dipole_1, Q_2, C6, r2, Polarizability",0.9757,0.8867,0.0891,3.9688,0.9646,143.93,169.57,0.9863,1.3354,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",217
+500,7,"Dipole_1, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9757,0.8867,0.0891,3.9688,0.9635,147.93,178.23,0.9863,1.3354,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",218
+455,6,"Dipole_1, Q_2, C6, r2, Polarizability, Polar_acc",0.9757,0.8867,0.0891,3.9688,0.9641,145.93,173.9,0.9863,1.3354,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",219
+453,6,"Dipole_1, Q_2, C6, r2, r2_acc, Polarizability",0.9757,0.8867,0.0891,3.9688,0.9641,145.93,173.9,0.9863,1.3354,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",220
+62,3,"Monopole, Q_2, Polarizability",0.9565,0.8862,0.0704,3.5892,0.9479,171.79,192.76,0.959,2.3086,Scaffold_Benzene,221
+175,4,"Monopole, Q_2, Polarizability, Polar_acc",0.9565,0.8862,0.0704,3.5892,0.9471,173.79,197.09,0.959,2.3086,Scaffold_Benzene,222
+173,4,"Monopole, Q_2, r2_acc, Polarizability",0.9565,0.8862,0.0704,3.5892,0.9471,173.79,197.09,0.959,2.3086,Scaffold_Benzene,223
+320,5,"Monopole, Q_2, r2_acc, Polarizability, Polar_acc",0.9565,0.8862,0.0704,3.5892,0.9462,175.79,201.42,0.959,2.3086,Scaffold_Benzene,224
+296,5,"Monopole, Q_0, Q_2, r2, Polarizability",0.9592,0.8859,0.0733,3.503,0.95,170.22,195.86,0.9541,2.4434,"Monopole, r2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",225
+425,6,"Monopole, Q_0, Q_2, r2, Polarizability, Polar_acc",0.9592,0.8859,0.0733,3.503,0.9492,172.22,200.19,0.9541,2.4434,"Monopole, r2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",226
+423,6,"Monopole, Q_0, Q_2, r2, r2_acc, Polarizability",0.9592,0.8859,0.0733,3.503,0.9492,172.22,200.19,0.9541,2.4434,"Monopole, r2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",227
+491,7,"Monopole, Q_0, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9592,0.8859,0.0733,3.503,0.9484,174.22,204.52,0.9541,2.4434,"Monopole, r2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",228
+59,3,"Monopole, Q_2, C6",0.9576,0.8853,0.0724,3.63,0.9489,170.24,191.21,0.9608,2.2563,Scaffold_Benzene,229
+315,5,"Monopole, Q_2, C6, r2_acc, Polar_acc",0.9576,0.8853,0.0724,3.63,0.9473,174.24,199.88,0.9608,2.2563,Scaffold_Benzene,230
+169,4,"Monopole, Q_2, C6, Polar_acc",0.9576,0.8853,0.0724,3.63,0.9481,172.24,195.55,0.9608,2.2563,Scaffold_Benzene,231
+167,4,"Monopole, Q_2, C6, r2_acc",0.9576,0.8853,0.0724,3.63,0.9481,172.24,195.55,0.9608,2.2563,Scaffold_Benzene,232
+138,4,"Monopole, Dipole_1, Q_2, r2_acc",0.9512,0.8841,0.0671,3.6688,0.9406,182.52,205.82,0.931,2.995,—,233
+140,4,"Monopole, Dipole_1, Q_2, Polar_acc",0.9512,0.8841,0.0671,3.6688,0.9406,182.52,205.82,0.931,2.995,—,234
+279,5,"Monopole, Dipole_1, Q_2, r2_acc, Polar_acc",0.9512,0.8841,0.0671,3.6688,0.9397,184.52,210.15,0.931,2.995,—,235
+47,3,"Monopole, Dipole_1, Q_2",0.9512,0.8841,0.0671,3.6688,0.9415,180.52,201.49,0.931,2.995,—,236
+162,4,"Monopole, Q_0, r2, Polar_acc",0.9547,0.8836,0.0711,3.4259,0.9455,175.94,199.25,0.9441,2.6965,Scaffold_BX-6,237
+160,4,"Monopole, Q_0, r2, r2_acc",0.9547,0.8836,0.0711,3.4259,0.9455,175.94,199.25,0.9441,2.6965,Scaffold_BX-6,238
+55,3,"Monopole, Q_0, r2",0.9547,0.8836,0.0711,3.4259,0.9464,173.94,194.92,0.9441,2.6965,Scaffold_BX-6,239
+308,5,"Monopole, Q_0, r2, r2_acc, Polar_acc",0.9547,0.8836,0.0711,3.4259,0.9447,177.94,203.58,0.9441,2.6965,Scaffold_BX-6,240
+355,5,"Dipole_1, Q_2, r2_acc, Polarizability, Polar_acc",0.9476,0.8827,0.0649,3.6388,0.9361,188.86,214.5,0.8928,3.733,"Polarizability, Scaffold_Pyrimidine",241
+208,4,"Dipole_1, Q_2, r2_acc, Polarizability",0.9476,0.8827,0.0649,3.6388,0.9371,186.86,210.17,0.8928,3.733,"Polarizability, Scaffold_Pyrimidine",242
+83,3,"Dipole_1, Q_2, Polarizability",0.9476,0.8827,0.0649,3.6388,0.9381,184.86,205.84,0.8928,3.733,"Polarizability, Scaffold_Pyrimidine",243
+210,4,"Dipole_1, Q_2, Polarizability, Polar_acc",0.9476,0.8827,0.0649,3.6388,0.9371,186.86,210.17,0.8928,3.733,"Polarizability, Scaffold_Pyrimidine",244
+436,6,"Monopole, Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9578,0.8812,0.0766,3.6584,0.9475,174.81,202.78,0.9536,2.4555,"r2, Polarizability, Scaffold_Benzene",245
+57,3,"Monopole, Q_0, Polarizability",0.9547,0.8812,0.0735,3.4713,0.9463,174.07,195.04,0.9445,2.6854,Scaffold_BX-6,246
+165,4,"Monopole, Q_0, Polarizability, Polar_acc",0.9547,0.8812,0.0735,3.4713,0.9454,176.07,199.37,0.9445,2.6854,Scaffold_BX-6,247
+163,4,"Monopole, Q_0, r2_acc, Polarizability",0.9547,0.8812,0.0735,3.4713,0.9454,176.07,199.37,0.9445,2.6854,Scaffold_BX-6,248
+171,4,"Monopole, Q_2, r2, Polarizability",0.9578,0.8812,0.0766,3.6584,0.9491,170.81,194.12,0.9536,2.4555,"r2, Polarizability, Scaffold_Benzene",249
+317,5,"Monopole, Q_2, r2, r2_acc, Polarizability",0.9578,0.8812,0.0766,3.6584,0.9483,172.81,198.45,0.9536,2.4555,"r2, Polarizability, Scaffold_Benzene",250
+319,5,"Monopole, Q_2, r2, Polarizability, Polar_acc",0.9578,0.8812,0.0766,3.6584,0.9483,172.81,198.45,0.9536,2.4555,"r2, Polarizability, Scaffold_Benzene",251
+310,5,"Monopole, Q_0, r2_acc, Polarizability, Polar_acc",0.9547,0.8812,0.0735,3.4713,0.9446,178.07,203.71,0.9445,2.6854,Scaffold_BX-6,252
+19,2,"Dipole_1, Q_2",0.9469,0.881,0.0659,3.669,0.9381,183.91,202.56,0.9014,3.5794,—,253
+82,3,"Dipole_1, Q_2, r2_acc",0.9469,0.881,0.0659,3.669,0.9372,185.91,206.89,0.9014,3.5794,—,254
+209,4,"Dipole_1, Q_2, r2_acc, Polar_acc",0.9469,0.881,0.0659,3.669,0.9362,187.91,211.22,0.9014,3.5794,—,255
+84,3,"Dipole_1, Q_2, Polar_acc",0.9469,0.881,0.0659,3.669,0.9372,185.91,206.89,0.9014,3.5794,—,256
+90,3,"Dipole_1, r2, Polarizability",0.9583,0.8802,0.0782,3.4122,0.9499,168.73,189.71,0.9722,1.9009,Scaffold_BX-6,257
+360,5,"Dipole_1, r2, r2_acc, Polarizability, Polar_acc",0.9583,0.8802,0.0782,3.4122,0.9483,172.73,198.37,0.9722,1.9009,Scaffold_BX-6,258
+219,4,"Dipole_1, r2, Polarizability, Polar_acc",0.9583,0.8802,0.0782,3.4122,0.9491,170.73,194.04,0.9722,1.9009,Scaffold_BX-6,259
+217,4,"Dipole_1, r2, r2_acc, Polarizability",0.9583,0.8802,0.0782,3.4122,0.9491,170.73,194.04,0.9722,1.9009,Scaffold_BX-6,260
+81,3,"Dipole_1, Q_2, r2",0.9472,0.8788,0.0683,3.7187,0.9372,185.91,206.88,0.9023,3.5625,"r2, Scaffold_Pyrimidine",261
+207,4,"Dipole_1, Q_2, r2, Polar_acc",0.9472,0.8788,0.0683,3.7187,0.9362,187.91,211.21,0.9023,3.5625,"r2, Scaffold_Pyrimidine",262
+205,4,"Dipole_1, Q_2, r2, r2_acc",0.9472,0.8788,0.0683,3.7187,0.9362,187.91,211.21,0.9023,3.5625,"r2, Scaffold_Pyrimidine",263
+353,5,"Dipole_1, Q_2, r2, r2_acc, Polar_acc",0.9472,0.8788,0.0683,3.7187,0.9353,189.91,215.54,0.9023,3.5625,"r2, Scaffold_Pyrimidine",264
+460,6,"Q_0, Q_2, C6, r2, r2_acc, Polar_acc",0.9613,0.8776,0.0837,3.6142,0.9513,169.0,196.97,0.9569,2.3668,"Scaffold_BX-6, Scaffold_Benzene",265
+361,5,"Q_0, Q_2, C6, r2, r2_acc",0.9613,0.8776,0.0837,3.6142,0.9521,167.0,192.64,0.9569,2.3668,"Scaffold_BX-6, Scaffold_Benzene",266
+221,4,"Q_0, Q_2, C6, r2",0.9613,0.8776,0.0837,3.6142,0.9528,165.0,188.31,0.9569,2.3668,"Scaffold_BX-6, Scaffold_Benzene",267
+363,5,"Q_0, Q_2, C6, r2, Polar_acc",0.9613,0.8776,0.0837,3.6142,0.9521,167.0,192.64,0.9569,2.3668,"Scaffold_BX-6, Scaffold_Benzene",268
+54,3,"Monopole, Q_0, C6",0.956,0.8767,0.0793,3.5734,0.9476,172.21,193.18,0.9505,2.5362,Scaffold_BX-6,269
+305,5,"Monopole, Q_0, C6, r2_acc, Polar_acc",0.956,0.8767,0.0793,3.5734,0.9459,176.21,201.85,0.9505,2.5362,Scaffold_BX-6,270
+157,4,"Monopole, Q_0, C6, r2_acc",0.956,0.8767,0.0793,3.5734,0.9468,174.21,197.52,0.9505,2.5362,Scaffold_BX-6,271
+159,4,"Monopole, Q_0, C6, Polar_acc",0.956,0.8767,0.0793,3.5734,0.9468,174.21,197.52,0.9505,2.5362,Scaffold_BX-6,272
+225,4,"Q_0, Q_2, r2, r2_acc",0.951,0.8765,0.0744,3.7533,0.9405,182.64,205.95,0.9399,2.7939,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",273
+358,5,"Dipole_1, C6, r2, Polarizability, Polar_acc",0.959,0.8765,0.0825,3.4918,0.9488,172.13,197.76,0.9732,1.8646,"C6, Scaffold_BX-6",274
+356,5,"Dipole_1, C6, r2, r2_acc, Polarizability",0.959,0.8765,0.0825,3.4918,0.9488,172.13,197.76,0.9732,1.8646,"C6, Scaffold_BX-6",275
+96,3,"Q_0, Q_2, r2",0.951,0.8765,0.0744,3.7533,0.9414,180.64,201.62,0.9399,2.7939,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",276
+368,5,"Q_0, Q_2, r2, r2_acc, Polar_acc",0.951,0.8765,0.0744,3.7533,0.9396,184.64,210.28,0.9399,2.7939,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",277
+212,4,"Dipole_1, C6, r2, Polarizability",0.959,0.8765,0.0825,3.4918,0.9495,170.13,193.43,0.9732,1.8646,"C6, Scaffold_BX-6",278
+227,4,"Q_0, Q_2, r2, Polar_acc",0.951,0.8765,0.0744,3.7533,0.9405,182.64,205.95,0.9399,2.7939,"Q_2, r2, Scaffold_BX-6, Scaffold_Benzene",279
+458,6,"Dipole_1, C6, r2, r2_acc, Polarizability, Polar_acc",0.959,0.8765,0.0825,3.4918,0.9479,174.13,202.09,0.9732,1.8646,"C6, Scaffold_BX-6",280
+28,2,"Q_0, r2_acc",0.9442,0.8763,0.0679,3.6513,0.9347,188.02,206.66,0.9413,2.7618,Scaffold_BX-6,281
+30,2,"Q_0, Polar_acc",0.9442,0.8763,0.0679,3.6513,0.9347,188.02,206.66,0.9413,2.7618,Scaffold_BX-6,282
+108,3,"Q_0, r2_acc, Polar_acc",0.9442,0.8763,0.0679,3.6513,0.9337,190.02,210.99,0.9413,2.7618,Scaffold_BX-6,283
+3,1,Q_0,0.9442,0.8763,0.0679,3.6513,0.9357,186.02,202.33,0.9413,2.7618,Scaffold_BX-6,284
+25,2,"Q_0, Q_2",0.9454,0.8755,0.0699,3.7255,0.9358,186.75,205.4,0.9389,2.819,"Q_2, Scaffold_BX-6",285
+229,4,"Q_0, Q_2, r2_acc, Polar_acc",0.9454,0.8755,0.0699,3.7255,0.9338,190.75,214.06,0.9389,2.819,"Q_2, Scaffold_BX-6",286
+99,3,"Q_0, Q_2, Polar_acc",0.9454,0.8755,0.0699,3.7255,0.9348,188.75,209.73,0.9389,2.819,"Q_2, Scaffold_BX-6",287
+97,3,"Q_0, Q_2, r2_acc",0.9454,0.8755,0.0699,3.7255,0.9348,188.75,209.73,0.9389,2.819,"Q_2, Scaffold_BX-6",288
+174,4,"Monopole, Q_2, r2_acc, Polar_acc",0.9475,0.8754,0.0721,3.7642,0.9363,187.82,211.13,0.9408,2.7746,—,289
+63,3,"Monopole, Q_2, Polar_acc",0.9475,0.8754,0.0721,3.7642,0.9373,185.82,206.8,0.9408,2.7746,—,290
+12,2,"Monopole, Q_2",0.9475,0.8754,0.0721,3.7642,0.9382,183.82,202.47,0.9408,2.7746,—,291
+61,3,"Monopole, Q_2, r2_acc",0.9475,0.8754,0.0721,3.7642,0.9373,185.82,206.8,0.9408,2.7746,—,292
+269,5,"Monopole, Dipole_1, Q_0, r2_acc, Polar_acc",0.9538,0.8751,0.0787,3.5412,0.9429,180.31,205.95,0.9497,2.5555,"Scaffold_BX-6, Scaffold_Pyrimidine",293
+135,4,"Monopole, Dipole_1, Q_0, Polar_acc",0.9538,0.8751,0.0787,3.5412,0.9438,178.31,201.62,0.9497,2.5555,"Scaffold_BX-6, Scaffold_Pyrimidine",294
+46,3,"Monopole, Dipole_1, Q_0",0.9538,0.8751,0.0787,3.5412,0.9447,176.31,197.29,0.9497,2.5555,"Scaffold_BX-6, Scaffold_Pyrimidine",295
+133,4,"Monopole, Dipole_1, Q_0, r2_acc",0.9538,0.8751,0.0787,3.5412,0.9438,178.31,201.62,0.9497,2.5555,"Scaffold_BX-6, Scaffold_Pyrimidine",296
+237,4,"Q_0, r2, r2_acc, Polarizability",0.9545,0.8731,0.0814,3.6125,0.9449,176.84,200.14,0.9457,2.6575,Scaffold_BX-6,297
+105,3,"Q_0, r2, Polarizability",0.9545,0.8731,0.0814,3.6125,0.9457,174.84,195.81,0.9457,2.6575,Scaffold_BX-6,298
+375,5,"Q_0, r2, r2_acc, Polarizability, Polar_acc",0.9545,0.8731,0.0814,3.6125,0.944,178.84,204.48,0.9457,2.6575,Scaffold_BX-6,299
+239,4,"Q_0, r2, Polarizability, Polar_acc",0.9545,0.8731,0.0814,3.6125,0.9449,176.84,200.14,0.9457,2.6575,Scaffold_BX-6,300
+230,4,"Q_0, Q_2, Polarizability, Polar_acc",0.95,0.873,0.077,3.8276,0.939,184.51,207.82,0.9385,2.8281,"Q_2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",301
+370,5,"Q_0, Q_2, r2_acc, Polarizability, Polar_acc",0.95,0.873,0.077,3.8276,0.9381,186.51,212.15,0.9385,2.8281,"Q_2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",302
+228,4,"Q_0, Q_2, r2_acc, Polarizability",0.95,0.873,0.077,3.8276,0.939,184.51,207.82,0.9385,2.8281,"Q_2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",303
+98,3,"Q_0, Q_2, Polarizability",0.95,0.873,0.077,3.8276,0.94,182.51,203.49,0.9385,2.8281,"Q_2, Polarizability, Scaffold_BX-6, Scaffold_Benzene",304
+431,6,"Monopole, Q_0, r2, r2_acc, Polarizability, Polar_acc",0.955,0.8709,0.0841,3.6838,0.9438,179.92,207.89,0.9438,2.7022,"Monopole, r2, Polarizability, Scaffold_BX-6",305
+307,5,"Monopole, Q_0, r2, r2_acc, Polarizability",0.955,0.8709,0.0841,3.6838,0.9447,177.92,203.56,0.9438,2.7022,"Monopole, r2, Polarizability, Scaffold_BX-6",306
+309,5,"Monopole, Q_0, r2, Polarizability, Polar_acc",0.955,0.8709,0.0841,3.6838,0.9447,177.92,203.56,0.9438,2.7022,"Monopole, r2, Polarizability, Scaffold_BX-6",307
+161,4,"Monopole, Q_0, r2, Polarizability",0.955,0.8709,0.0841,3.6838,0.9455,175.92,199.23,0.9438,2.7022,"Monopole, r2, Polarizability, Scaffold_BX-6",308
+211,4,"Dipole_1, C6, r2, r2_acc",0.9553,0.8704,0.0848,3.4993,0.9456,175.88,199.18,0.9457,2.6553,"Scaffold_BX-6, Scaffold_Benzene",309
+357,5,"Dipole_1, C6, r2, r2_acc, Polar_acc",0.9553,0.8704,0.0848,3.4993,0.9447,177.88,203.52,0.9457,2.6553,"Scaffold_BX-6, Scaffold_Benzene",310
+213,4,"Dipole_1, C6, r2, Polar_acc",0.9553,0.8704,0.0848,3.4993,0.9456,175.88,199.18,0.9457,2.6553,"Scaffold_BX-6, Scaffold_Benzene",311
+85,3,"Dipole_1, C6, r2",0.9553,0.8704,0.0848,3.4993,0.9464,173.88,194.85,0.9457,2.6553,"Scaffold_BX-6, Scaffold_Benzene",312
+222,4,"Q_0, Q_2, C6, r2_acc",0.949,0.8702,0.0788,3.8863,0.9376,186.3,209.61,0.9384,2.8286,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",313
+95,3,"Q_0, Q_2, C6",0.949,0.8702,0.0788,3.8863,0.9385,184.3,205.28,0.9384,2.8286,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",314
+224,4,"Q_0, Q_2, C6, Polar_acc",0.949,0.8702,0.0788,3.8863,0.9376,186.3,209.61,0.9384,2.8286,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",315
+365,5,"Q_0, Q_2, C6, r2_acc, Polar_acc",0.949,0.8702,0.0788,3.8863,0.9366,188.3,213.94,0.9384,2.8286,"Q_2, C6, Scaffold_BX-6, Scaffold_Benzene",316
+246,4,"Q_2, C6, Polarizability, Polar_acc",0.9583,0.8698,0.0885,3.9149,0.9477,172.87,196.18,0.9233,3.1573,—,317
+244,4,"Q_2, C6, r2_acc, Polarizability",0.9583,0.8698,0.0885,3.9149,0.9477,172.87,196.18,0.9233,3.1573,—,318
+112,3,"Q_2, C6, Polarizability",0.9583,0.8698,0.0885,3.9149,0.9485,170.87,191.85,0.9233,3.1573,—,319
+379,5,"Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9583,0.8698,0.0885,3.9149,0.9469,174.87,200.51,0.9233,3.1573,—,320
+314,5,"Monopole, Q_2, C6, r2_acc, Polarizability",0.9596,0.8693,0.0904,3.9032,0.9485,172.54,198.18,0.9546,2.4296,"C6, Polarizability",321
+435,6,"Monopole, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9596,0.8693,0.0904,3.9032,0.9477,174.54,202.51,0.9546,2.4296,"C6, Polarizability",322
+168,4,"Monopole, Q_2, C6, Polarizability",0.9596,0.8693,0.0904,3.9032,0.9493,170.54,193.85,0.9546,2.4296,"C6, Polarizability",323
+380,5,"Q_2, r2, r2_acc, Polarizability, Polar_acc",0.9544,0.8693,0.0851,3.9686,0.9423,181.13,206.76,0.9609,2.2545,Scaffold_Benzene,324
+247,4,"Q_2, r2, r2_acc, Polarizability",0.9544,0.8693,0.0851,3.9686,0.9432,179.13,202.43,0.9609,2.2545,Scaffold_Benzene,325
+249,4,"Q_2, r2, Polarizability, Polar_acc",0.9544,0.8693,0.0851,3.9686,0.9432,179.13,202.43,0.9609,2.2545,Scaffold_Benzene,326
+316,5,"Monopole, Q_2, C6, Polarizability, Polar_acc",0.9596,0.8693,0.0904,3.9032,0.9485,172.54,198.18,0.9546,2.4296,"C6, Polarizability",327
+115,3,"Q_2, r2, Polarizability",0.9544,0.8693,0.0851,3.9686,0.9441,177.13,198.1,0.9609,2.2545,Scaffold_Benzene,328
+184,4,"Monopole, r2, Polarizability, Polar_acc",0.9514,0.8683,0.0831,3.6631,0.9419,180.87,204.17,0.939,2.815,"Polarizability, Scaffold_Benzene",329
+69,3,"Monopole, r2, Polarizability",0.9514,0.8683,0.0831,3.6631,0.9428,178.87,199.84,0.939,2.815,"Polarizability, Scaffold_Benzene",330
+182,4,"Monopole, r2, r2_acc, Polarizability",0.9514,0.8683,0.0831,3.6631,0.9419,180.87,204.17,0.939,2.815,"Polarizability, Scaffold_Benzene",331
+325,5,"Monopole, r2, r2_acc, Polarizability, Polar_acc",0.9514,0.8683,0.0831,3.6631,0.941,182.87,208.5,0.939,2.815,"Polarizability, Scaffold_Benzene",332
+110,3,"Q_2, C6, r2",0.9575,0.8682,0.0893,3.9793,0.9473,172.58,193.55,0.9562,2.3865,—,333
+377,5,"Q_2, C6, r2, r2_acc, Polar_acc",0.9575,0.8682,0.0893,3.9793,0.9457,176.58,202.21,0.9562,2.3865,—,334
+241,4,"Q_2, C6, r2, r2_acc",0.9575,0.8682,0.0893,3.9793,0.9465,174.58,197.88,0.9562,2.3865,—,335
+243,4,"Q_2, C6, r2, Polar_acc",0.9575,0.8682,0.0893,3.9793,0.9465,174.58,197.88,0.9562,2.3865,—,336
+432,6,"Monopole, Q_2, C6, r2, r2_acc, Polarizability",0.9629,0.8681,0.0948,3.7118,0.9534,165.74,193.71,0.9337,2.9355,"Monopole, r2",337
+101,3,"Q_0, C6, r2_acc",0.9444,0.8681,0.0763,3.7032,0.9338,189.98,210.95,0.9417,2.753,"C6, Scaffold_BX-6",338
+235,4,"Q_0, C6, r2_acc, Polar_acc",0.9444,0.8681,0.0763,3.7032,0.9327,191.98,215.28,0.9417,2.753,"C6, Scaffold_BX-6",339
+493,7,"Monopole, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9629,0.8681,0.0948,3.7118,0.9526,167.74,198.04,0.9337,2.9355,"Monopole, r2",340
+26,2,"Q_0, C6",0.9444,0.8681,0.0763,3.7032,0.9347,187.98,206.62,0.9417,2.753,"C6, Scaffold_BX-6",341
+434,6,"Monopole, Q_2, C6, r2, Polarizability, Polar_acc",0.9629,0.8681,0.0948,3.7118,0.9534,165.74,193.71,0.9337,2.9355,"Monopole, r2",342
+312,5,"Monopole, Q_2, C6, r2, Polarizability",0.9629,0.8681,0.0948,3.7118,0.9541,163.74,189.38,0.9337,2.9355,"Monopole, r2",343
+103,3,"Q_0, C6, Polar_acc",0.9444,0.8681,0.0763,3.7032,0.9338,189.98,210.95,0.9417,2.753,"C6, Scaffold_BX-6",344
+422,6,"Monopole, Q_0, Q_2, C6, Polarizability, Polar_acc",0.9625,0.8679,0.0946,3.7235,0.9524,167.35,195.32,0.9492,2.5702,"Q_0, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",345
+293,5,"Monopole, Q_0, Q_2, C6, Polarizability",0.9625,0.8679,0.0946,3.7235,0.9531,165.35,190.99,0.9492,2.5702,"Q_0, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",346
+420,6,"Monopole, Q_0, Q_2, C6, r2_acc, Polarizability",0.9625,0.8679,0.0946,3.7235,0.9524,167.35,195.32,0.9492,2.5702,"Q_0, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",347
+490,7,"Monopole, Q_0, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9625,0.8679,0.0946,3.7235,0.9516,169.35,199.65,0.9492,2.5702,"Q_0, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",348
+364,5,"Q_0, Q_2, C6, r2_acc, Polarizability",0.9624,0.8676,0.0948,3.7226,0.953,165.53,191.17,0.9432,2.7166,"Q_0, Scaffold_BX-6, Scaffold_Benzene",349
+366,5,"Q_0, Q_2, C6, Polarizability, Polar_acc",0.9624,0.8676,0.0948,3.7226,0.953,165.53,191.17,0.9432,2.7166,"Q_0, Scaffold_BX-6, Scaffold_Benzene",350
+378,5,"Q_2, C6, r2, Polarizability, Polar_acc",0.9585,0.8676,0.091,3.9853,0.9469,174.81,200.44,0.9307,3.0007,"r2, Polarizability",351
+376,5,"Q_2, C6, r2, r2_acc, Polarizability",0.9585,0.8676,0.091,3.9853,0.9469,174.81,200.44,0.9307,3.0007,"r2, Polarizability",352
+223,4,"Q_0, Q_2, C6, Polarizability",0.9624,0.8676,0.0948,3.7226,0.9537,163.53,186.84,0.9432,2.7166,"Q_0, Scaffold_BX-6, Scaffold_Benzene",353
+242,4,"Q_2, C6, r2, Polarizability",0.9585,0.8676,0.091,3.9853,0.9477,172.81,196.11,0.9307,3.0007,"r2, Polarizability",354
+462,6,"Q_0, Q_2, C6, r2_acc, Polarizability, Polar_acc",0.9624,0.8676,0.0948,3.7226,0.9523,167.53,195.5,0.9432,2.7166,"Q_0, Scaffold_BX-6, Scaffold_Benzene",355
+465,6,"Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9585,0.8676,0.091,3.9853,0.9461,176.81,204.78,0.9307,3.0007,"r2, Polarizability",356
+461,6,"Q_0, Q_2, C6, r2, Polarizability, Polar_acc",0.9624,0.8667,0.0957,3.7338,0.9523,167.52,195.49,0.9445,2.6854,"Q_0, r2, Scaffold_BX-6",357
+459,6,"Q_0, Q_2, C6, r2, r2_acc, Polarizability",0.9624,0.8667,0.0957,3.7338,0.9523,167.52,195.49,0.9445,2.6854,"Q_0, r2, Scaffold_BX-6",358
+362,5,"Q_0, Q_2, C6, r2, Polarizability",0.9624,0.8667,0.0957,3.7338,0.953,165.52,191.16,0.9445,2.6854,"Q_0, r2, Scaffold_BX-6",359
+501,7,"Q_0, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9624,0.8667,0.0957,3.7338,0.9515,169.52,199.82,0.9445,2.6854,"Q_0, r2, Scaffold_BX-6",360
+109,3,"Q_0, Polarizability, Polar_acc",0.9445,0.8665,0.078,3.7066,0.9339,189.85,210.83,0.9421,2.7431,"Polarizability, Scaffold_BX-6",361
+107,3,"Q_0, r2_acc, Polarizability",0.9445,0.8665,0.078,3.7066,0.9339,189.85,210.83,0.9421,2.7431,"Polarizability, Scaffold_BX-6",362
+29,2,"Q_0, Polarizability",0.9445,0.8665,0.078,3.7066,0.9349,187.85,206.5,0.9421,2.7431,"Polarizability, Scaffold_BX-6",363
+240,4,"Q_0, r2_acc, Polarizability, Polar_acc",0.9445,0.8665,0.078,3.7066,0.9328,191.85,215.16,0.9421,2.7431,"Polarizability, Scaffold_BX-6",364
+509,8,"Monopole, Q_0, Q_2, C6, r2, r2_acc, Polarizability, Polar_acc",0.9633,0.8664,0.0968,3.7752,0.952,169.44,202.07,0.9376,2.8475,"Monopole, Q_0, r2, Scaffold_BX-6",365
+489,7,"Monopole, Q_0, Q_2, C6, r2, Polarizability, Polar_acc",0.9633,0.8664,0.0968,3.7752,0.9528,167.44,197.74,0.9376,2.8475,"Monopole, Q_0, r2, Scaffold_BX-6",366
+418,6,"Monopole, Q_0, Q_2, C6, r2, Polarizability",0.9633,0.8664,0.0968,3.7752,0.9536,165.44,193.41,0.9376,2.8475,"Monopole, Q_0, r2, Scaffold_BX-6",367
+487,7,"Monopole, Q_0, Q_2, C6, r2, r2_acc, Polarizability",0.9633,0.8664,0.0968,3.7752,0.9528,167.44,197.74,0.9376,2.8475,"Monopole, Q_0, r2, Scaffold_BX-6",368
+106,3,"Q_0, r2, Polar_acc",0.9446,0.8652,0.0794,3.7075,0.934,189.67,210.64,0.9425,2.7325,"r2, Scaffold_BX-6",369
+27,2,"Q_0, r2",0.9446,0.8652,0.0794,3.7075,0.935,187.67,206.31,0.9425,2.7325,"r2, Scaffold_BX-6",370
+238,4,"Q_0, r2, r2_acc, Polar_acc",0.9446,0.8652,0.0794,3.7075,0.933,191.67,214.98,0.9425,2.7325,"r2, Scaffold_BX-6",371
+104,3,"Q_0, r2, r2_acc",0.9446,0.8652,0.0794,3.7075,0.934,189.67,210.64,0.9425,2.7325,"r2, Scaffold_BX-6",372
+11,2,"Monopole, Q_0",0.9451,0.8633,0.0818,3.6977,0.9356,186.96,205.6,0.9437,2.7052,"Monopole, Scaffold_BX-6",373
+56,3,"Monopole, Q_0, r2_acc",0.9451,0.8633,0.0818,3.6977,0.9346,188.96,209.94,0.9437,2.7052,"Monopole, Scaffold_BX-6",374
+58,3,"Monopole, Q_0, Polar_acc",0.9451,0.8633,0.0818,3.6977,0.9346,188.96,209.94,0.9437,2.7052,"Monopole, Scaffold_BX-6",375
+164,4,"Monopole, Q_0, r2_acc, Polar_acc",0.9451,0.8633,0.0818,3.6977,0.9336,190.96,214.27,0.9437,2.7052,"Monopole, Scaffold_BX-6",376
+77,3,"Dipole_1, Q_0, r2_acc",0.9476,0.8631,0.0845,3.6308,0.9376,185.4,206.38,0.949,2.5753,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",377
+79,3,"Dipole_1, Q_0, Polar_acc",0.9476,0.8631,0.0845,3.6308,0.9376,185.4,206.38,0.949,2.5753,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",378
+18,2,"Dipole_1, Q_0",0.9476,0.8631,0.0845,3.6308,0.9386,183.4,202.05,0.949,2.5753,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",379
+199,4,"Dipole_1, Q_0, r2_acc, Polar_acc",0.9476,0.8631,0.0845,3.6308,0.9367,187.4,210.71,0.949,2.5753,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",380
+214,4,"Dipole_1, C6, r2_acc, Polarizability",0.9501,0.8586,0.0915,3.6595,0.9397,183.73,207.04,0.8932,3.7254,Scaffold_BX-6,381
+359,5,"Dipole_1, C6, r2_acc, Polarizability, Polar_acc",0.9501,0.8586,0.0915,3.6595,0.9387,185.73,211.37,0.8932,3.7254,Scaffold_BX-6,382
+216,4,"Dipole_1, C6, Polarizability, Polar_acc",0.9501,0.8586,0.0915,3.6595,0.9397,183.73,207.04,0.8932,3.7254,Scaffold_BX-6,383
+87,3,"Dipole_1, C6, Polarizability",0.9501,0.8586,0.0915,3.6595,0.9406,181.73,202.71,0.8932,3.7254,Scaffold_BX-6,384
+116,3,"Q_2, r2, Polar_acc",0.938,0.8563,0.0816,4.0303,0.9262,198.23,219.2,0.9204,3.2167,—,385
+114,3,"Q_2, r2, r2_acc",0.938,0.8563,0.0816,4.0303,0.9262,198.23,219.2,0.9204,3.2167,—,386
+32,2,"Q_2, r2",0.938,0.8563,0.0816,4.0303,0.9273,196.23,214.87,0.9204,3.2167,—,387
+248,4,"Q_2, r2, r2_acc, Polar_acc",0.938,0.8563,0.0816,4.0303,0.925,200.23,223.54,0.9204,3.2167,—,388
+419,6,"Monopole, Q_0, Q_2, C6, r2, Polar_acc",0.9619,0.856,0.1059,3.8837,0.9514,168.91,196.88,0.9558,2.3974,"Monopole, C6, r2, Scaffold_BX-6, Scaffold_Benzene",389
+488,7,"Monopole, Q_0, Q_2, C6, r2, r2_acc, Polar_acc",0.9619,0.856,0.1059,3.8837,0.9506,170.91,201.21,0.9558,2.3974,"Monopole, C6, r2, Scaffold_BX-6, Scaffold_Benzene",390
+417,6,"Monopole, Q_0, Q_2, C6, r2, r2_acc",0.9619,0.856,0.1059,3.8837,0.9514,168.91,196.88,0.9558,2.3974,"Monopole, C6, r2, Scaffold_BX-6, Scaffold_Benzene",391
+291,5,"Monopole, Q_0, Q_2, C6, r2",0.9619,0.856,0.1059,3.8837,0.9522,166.91,192.54,0.9558,2.3974,"Monopole, C6, r2, Scaffold_BX-6, Scaffold_Benzene",392
+233,4,"Q_0, C6, r2, Polar_acc",0.9572,0.8552,0.1021,3.8929,0.9474,173.36,196.66,0.9555,2.4046,Scaffold_BX-6,393
+372,5,"Q_0, C6, r2, r2_acc, Polar_acc",0.9572,0.8552,0.1021,3.8929,0.9465,175.36,200.99,0.9555,2.4046,Scaffold_BX-6,394
+231,4,"Q_0, C6, r2, r2_acc",0.9572,0.8552,0.1021,3.8929,0.9474,173.36,196.66,0.9555,2.4046,Scaffold_BX-6,395
+100,3,"Q_0, C6, r2",0.9572,0.8552,0.1021,3.8929,0.9482,171.36,192.33,0.9555,2.4046,Scaffold_BX-6,396
+321,5,"Monopole, C6, r2, r2_acc, Polarizability",0.9592,0.8548,0.1044,3.8612,0.9494,171.17,196.8,0.9383,2.8314,Scaffold_BX-6,397
+323,5,"Monopole, C6, r2, Polarizability, Polar_acc",0.9592,0.8548,0.1044,3.8612,0.9494,171.17,196.8,0.9383,2.8314,Scaffold_BX-6,398
+177,4,"Monopole, C6, r2, Polarizability",0.9592,0.8548,0.1044,3.8612,0.9502,169.17,192.47,0.9383,2.8314,Scaffold_BX-6,399
+437,6,"Monopole, C6, r2, r2_acc, Polarizability, Polar_acc",0.9592,0.8548,0.1044,3.8612,0.9486,173.17,201.13,0.9383,2.8314,Scaffold_BX-6,400
+429,6,"Monopole, Q_0, C6, r2, Polarizability, Polar_acc",0.96,0.8545,0.1055,3.9042,0.9493,172.18,200.15,0.9441,2.6951,"Q_0, Scaffold_BX-6",401
+427,6,"Monopole, Q_0, C6, r2, r2_acc, Polarizability",0.96,0.8545,0.1055,3.9042,0.9493,172.18,200.15,0.9441,2.6951,"Q_0, Scaffold_BX-6",402
+302,5,"Monopole, Q_0, C6, r2, Polarizability",0.96,0.8545,0.1055,3.9042,0.9501,170.18,195.82,0.9441,2.6951,"Q_0, Scaffold_BX-6",403
+492,7,"Monopole, Q_0, C6, r2, r2_acc, Polarizability, Polar_acc",0.96,0.8545,0.1055,3.9042,0.9484,174.18,204.48,0.9441,2.6951,"Q_0, Scaffold_BX-6",404
+68,3,"Monopole, r2, r2_acc",0.9427,0.8522,0.0905,3.6483,0.9339,189.79,210.76,0.939,2.8166,Scaffold_BX-6,405
+183,4,"Monopole, r2, r2_acc, Polar_acc",0.9427,0.8522,0.0905,3.6483,0.9329,191.79,215.09,0.939,2.8166,Scaffold_BX-6,406
+70,3,"Monopole, r2, Polar_acc",0.9427,0.8522,0.0905,3.6483,0.9339,189.79,210.76,0.939,2.8166,Scaffold_BX-6,407
+14,2,"Monopole, r2",0.9427,0.8522,0.0905,3.6483,0.9349,187.79,206.43,0.939,2.8166,Scaffold_BX-6,408
+250,4,"Q_2, r2_acc, Polarizability, Polar_acc",0.9328,0.8468,0.086,4.1412,0.9191,205.99,229.3,0.9083,3.4514,—,409
+119,3,"Q_2, Polarizability, Polar_acc",0.9328,0.8468,0.086,4.1412,0.9203,203.99,224.97,0.9083,3.4514,—,410
+117,3,"Q_2, r2_acc, Polarizability",0.9328,0.8468,0.086,4.1412,0.9203,203.99,224.97,0.9083,3.4514,—,411
+34,2,"Q_2, Polarizability",0.9328,0.8468,0.086,4.1412,0.9215,201.99,220.64,0.9083,3.4514,—,412
+158,4,"Monopole, Q_0, C6, Polarizability",0.9585,0.8451,0.1134,4.0077,0.9485,171.71,195.02,0.9552,2.4137,"Monopole, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",413
+430,6,"Monopole, Q_0, C6, r2_acc, Polarizability, Polar_acc",0.9585,0.8451,0.1134,4.0077,0.9468,175.71,203.68,0.9552,2.4137,"Monopole, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",414
+304,5,"Monopole, Q_0, C6, r2_acc, Polarizability",0.9585,0.8451,0.1134,4.0077,0.9477,173.71,199.35,0.9552,2.4137,"Monopole, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",415
+306,5,"Monopole, Q_0, C6, Polarizability, Polar_acc",0.9585,0.8451,0.1134,4.0077,0.9477,173.71,199.35,0.9552,2.4137,"Monopole, C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",416
+234,4,"Q_0, C6, r2_acc, Polarizability",0.9584,0.8444,0.114,4.013,0.9483,171.94,195.24,0.9516,2.5075,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",417
+236,4,"Q_0, C6, Polarizability, Polar_acc",0.9584,0.8444,0.114,4.013,0.9483,171.94,195.24,0.9516,2.5075,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",418
+374,5,"Q_0, C6, r2_acc, Polarizability, Polar_acc",0.9584,0.8444,0.114,4.013,0.9475,173.94,199.57,0.9516,2.5075,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",419
+102,3,"Q_0, C6, Polarizability",0.9584,0.8444,0.114,4.013,0.9491,169.94,190.91,0.9516,2.5075,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",420
+373,5,"Q_0, C6, r2, Polarizability, Polar_acc",0.9584,0.8434,0.1151,4.0276,0.9475,173.94,199.57,0.9517,2.5059,"r2, Scaffold_BX-6, Scaffold_Benzene",421
+371,5,"Q_0, C6, r2, r2_acc, Polarizability",0.9584,0.8434,0.1151,4.0276,0.9475,173.94,199.57,0.9517,2.5059,"r2, Scaffold_BX-6, Scaffold_Benzene",422
+232,4,"Q_0, C6, r2, Polarizability",0.9584,0.8434,0.1151,4.0276,0.9483,171.94,195.24,0.9517,2.5059,"r2, Scaffold_BX-6, Scaffold_Benzene",423
+464,6,"Q_0, C6, r2, r2_acc, Polarizability, Polar_acc",0.9584,0.8434,0.1151,4.0276,0.9467,175.94,203.9,0.9517,2.5059,"r2, Scaffold_BX-6, Scaffold_Benzene",424
+16,2,"Monopole, Polarizability",0.9393,0.8389,0.1004,3.8054,0.9308,192.41,211.06,0.9396,2.8006,Scaffold_BX-6,425
+73,3,"Monopole, Polarizability, Polar_acc",0.9393,0.8389,0.1004,3.8054,0.9298,194.41,215.39,0.9396,2.8006,Scaffold_BX-6,426
+185,4,"Monopole, r2_acc, Polarizability, Polar_acc",0.9393,0.8389,0.1004,3.8054,0.9287,196.41,219.72,0.9396,2.8006,Scaffold_BX-6,427
+71,3,"Monopole, r2_acc, Polarizability",0.9393,0.8389,0.1004,3.8054,0.9298,194.41,215.39,0.9396,2.8006,Scaffold_BX-6,428
+180,4,"Monopole, C6, r2_acc, Polar_acc",0.9404,0.8384,0.1021,3.8247,0.9297,195.31,218.62,0.9526,2.4826,Scaffold_BX-6,429
+13,2,"Monopole, C6",0.9404,0.8384,0.1021,3.8247,0.9318,191.31,209.96,0.9526,2.4826,Scaffold_BX-6,430
+65,3,"Monopole, C6, r2_acc",0.9404,0.8384,0.1021,3.8247,0.9308,193.31,214.29,0.9526,2.4826,Scaffold_BX-6,431
+67,3,"Monopole, C6, Polar_acc",0.9404,0.8384,0.1021,3.8247,0.9308,193.31,214.29,0.9526,2.4826,Scaffold_BX-6,432
+311,5,"Monopole, Q_2, C6, r2, r2_acc",0.9593,0.8374,0.1219,4.3069,0.9473,174.23,199.87,0.9606,2.2624,"Monopole, C6, r2, Scaffold_Benzene",433
+433,6,"Monopole, Q_2, C6, r2, r2_acc, Polar_acc",0.9593,0.8374,0.1219,4.3069,0.9465,176.23,204.2,0.9606,2.2624,"Monopole, C6, r2, Scaffold_Benzene",434
+313,5,"Monopole, Q_2, C6, r2, Polar_acc",0.9593,0.8374,0.1219,4.3069,0.9473,174.23,199.87,0.9606,2.2624,"Monopole, C6, r2, Scaffold_Benzene",435
+166,4,"Monopole, Q_2, C6, r2",0.9593,0.8374,0.1219,4.3069,0.9481,172.23,195.53,0.9606,2.2624,"Monopole, C6, r2, Scaffold_Benzene",436
+31,2,"Q_2, C6",0.9264,0.834,0.0925,4.2976,0.9143,208.73,227.37,0.9045,3.5221,—,437
+111,3,"Q_2, C6, r2_acc",0.9264,0.834,0.0925,4.2976,0.913,210.73,231.7,0.9045,3.5221,—,438
+113,3,"Q_2, C6, Polar_acc",0.9264,0.834,0.0925,4.2976,0.913,210.73,231.7,0.9045,3.5221,—,439
+245,4,"Q_2, C6, r2_acc, Polar_acc",0.9264,0.834,0.0925,4.2976,0.9116,212.73,236.03,0.9045,3.5221,—,440
+301,5,"Monopole, Q_0, C6, r2, r2_acc",0.9577,0.8332,0.1245,4.1516,0.9465,175.36,200.99,0.9556,2.4034,"Monopole, C6, r2, Scaffold_BX-6",441
+303,5,"Monopole, Q_0, C6, r2, Polar_acc",0.9577,0.8332,0.1245,4.1516,0.9465,175.36,200.99,0.9556,2.4034,"Monopole, C6, r2, Scaffold_BX-6",442
+428,6,"Monopole, Q_0, C6, r2, r2_acc, Polar_acc",0.9577,0.8332,0.1245,4.1516,0.9457,177.36,205.32,0.9556,2.4034,"Monopole, C6, r2, Scaffold_BX-6",443
+156,4,"Monopole, Q_0, C6, r2",0.9577,0.8332,0.1245,4.1516,0.9474,173.36,196.66,0.9556,2.4034,"Monopole, C6, r2, Scaffold_BX-6",444
+86,3,"Dipole_1, C6, r2_acc",0.9151,0.8127,0.1024,4.1975,0.9028,219.11,240.09,0.8466,4.4643,Scaffold_BX-6,445
+215,4,"Dipole_1, C6, r2_acc, Polar_acc",0.9151,0.8127,0.1024,4.1975,0.9013,221.11,244.42,0.8466,4.4643,Scaffold_BX-6,446
+20,2,"Dipole_1, C6",0.9151,0.8127,0.1024,4.1975,0.9043,217.11,235.76,0.8466,4.4643,Scaffold_BX-6,447
+88,3,"Dipole_1, C6, Polar_acc",0.9151,0.8127,0.1024,4.1975,0.9028,219.11,240.09,0.8466,4.4643,Scaffold_BX-6,448
+324,5,"Monopole, C6, r2_acc, Polarizability, Polar_acc",0.9423,0.8107,0.1316,4.1764,0.9287,197.19,222.83,0.9566,2.3762,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",449
+66,3,"Monopole, C6, Polarizability",0.9423,0.8107,0.1316,4.1764,0.9309,193.19,214.16,0.9566,2.3762,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",450
+181,4,"Monopole, C6, Polarizability, Polar_acc",0.9423,0.8107,0.1316,4.1764,0.9298,195.19,218.5,0.9566,2.3762,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",451
+179,4,"Monopole, C6, r2_acc, Polarizability",0.9423,0.8107,0.1316,4.1764,0.9298,195.19,218.5,0.9566,2.3762,"C6, Polarizability, Scaffold_BX-6, Scaffold_Benzene",452
+254,4,"C6, r2_acc, Polarizability, Polar_acc",0.9346,0.8039,0.1307,4.2629,0.9211,204.1,227.41,0.9255,3.1112,Scaffold_BX-6,453
+38,2,"C6, Polarizability",0.9346,0.8039,0.1307,4.2629,0.9235,200.1,218.75,0.9255,3.1112,Scaffold_BX-6,454
+123,3,"C6, r2_acc, Polarizability",0.9346,0.8039,0.1307,4.2629,0.9223,202.1,223.08,0.9255,3.1112,Scaffold_BX-6,455
+125,3,"C6, Polarizability, Polar_acc",0.9346,0.8039,0.1307,4.2629,0.9223,202.1,223.08,0.9255,3.1112,Scaffold_BX-6,456
+253,4,"C6, r2, Polarizability, Polar_acc",0.9348,0.8021,0.1326,4.2795,0.9212,204.0,227.3,0.9355,2.8958,"r2, Scaffold_BX-6",457
+121,3,"C6, r2, Polarizability",0.9348,0.8021,0.1326,4.2795,0.9224,202.0,222.97,0.9355,2.8958,"r2, Scaffold_BX-6",458
+251,4,"C6, r2, r2_acc, Polarizability",0.9348,0.8021,0.1326,4.2795,0.9212,204.0,227.3,0.9355,2.8958,"r2, Scaffold_BX-6",459
+381,5,"C6, r2, r2_acc, Polarizability, Polar_acc",0.9348,0.8021,0.1326,4.2795,0.92,206.0,231.63,0.9355,2.8958,"r2, Scaffold_BX-6",460
+120,3,"C6, r2, r2_acc",0.9326,0.7973,0.1353,4.2992,0.9202,204.11,225.08,0.9571,2.3623,"Scaffold_BX-6, Scaffold_Benzene",461
+252,4,"C6, r2, r2_acc, Polar_acc",0.9326,0.7973,0.1353,4.2992,0.919,206.11,229.41,0.9571,2.3623,"Scaffold_BX-6, Scaffold_Benzene",462
+36,2,"C6, r2",0.9326,0.7973,0.1353,4.2992,0.9214,202.11,220.75,0.9571,2.3623,"Scaffold_BX-6, Scaffold_Benzene",463
+122,3,"C6, r2, Polar_acc",0.9326,0.7973,0.1353,4.2992,0.9202,204.11,225.08,0.9571,2.3623,"Scaffold_BX-6, Scaffold_Benzene",464
+92,3,"Dipole_1, r2_acc, Polarizability",0.906,0.7849,0.1212,4.4562,0.892,227.11,248.09,0.8603,4.2615,Scaffold_BX-6,465
+220,4,"Dipole_1, r2_acc, Polarizability, Polar_acc",0.906,0.7849,0.1212,4.4562,0.8904,229.11,252.42,0.8603,4.2615,Scaffold_BX-6,466
+94,3,"Dipole_1, Polarizability, Polar_acc",0.906,0.7849,0.1212,4.4562,0.892,227.11,248.09,0.8603,4.2615,Scaffold_BX-6,467
+23,2,"Dipole_1, Polarizability",0.906,0.7849,0.1212,4.4562,0.8936,225.11,243.76,0.8603,4.2615,Scaffold_BX-6,468
+41,2,"r2, Polarizability",0.926,0.7835,0.1425,4.4284,0.9144,208.62,227.27,0.9418,2.7496,Scaffold_BX-6,469
+128,3,"r2, Polarizability, Polar_acc",0.926,0.7835,0.1425,4.4284,0.9131,210.62,231.6,0.9418,2.7496,Scaffold_BX-6,470
+255,4,"r2, r2_acc, Polarizability, Polar_acc",0.926,0.7835,0.1425,4.4284,0.9117,212.62,235.93,0.9418,2.7496,Scaffold_BX-6,471
+126,3,"r2, r2_acc, Polarizability",0.926,0.7835,0.1425,4.4284,0.9131,210.62,231.6,0.9418,2.7496,Scaffold_BX-6,472
+176,4,"Monopole, C6, r2, r2_acc",0.9466,0.7804,0.1662,4.6034,0.9335,191.1,214.41,0.9272,3.0757,"Monopole, C6, r2, Scaffold_BX-6",473
+178,4,"Monopole, C6, r2, Polar_acc",0.9466,0.7804,0.1662,4.6034,0.9335,191.1,214.41,0.9272,3.0757,"Monopole, C6, r2, Scaffold_BX-6",474
+64,3,"Monopole, C6, r2",0.9466,0.7804,0.1662,4.6034,0.9345,189.1,210.08,0.9272,3.0757,"Monopole, C6, r2, Scaffold_BX-6",475
+322,5,"Monopole, C6, r2, r2_acc, Polar_acc",0.9466,0.7804,0.1662,4.6034,0.9325,193.1,218.74,0.9272,3.0757,"Monopole, C6, r2, Scaffold_BX-6",476
+89,3,"Dipole_1, r2, r2_acc",0.8983,0.7561,0.1422,4.7187,0.8825,233.57,254.54,0.8726,4.0684,Scaffold_BX-6,477
+21,2,"Dipole_1, r2",0.8983,0.7561,0.1422,4.7187,0.8842,231.57,250.21,0.8726,4.0684,Scaffold_BX-6,478
+91,3,"Dipole_1, r2, Polar_acc",0.8983,0.7561,0.1422,4.7187,0.8825,233.57,254.54,0.8726,4.0684,Scaffold_BX-6,479
+218,4,"Dipole_1, r2, r2_acc, Polar_acc",0.8983,0.7561,0.1422,4.7187,0.8806,235.57,258.87,0.8726,4.0684,Scaffold_BX-6,480
+22,2,"Dipole_1, r2_acc",0.8945,0.7377,0.1568,4.8616,0.8794,234.63,253.28,0.9009,3.5883,Scaffold_BX-6,481
+2,1,Dipole_1,0.8945,0.7377,0.1568,4.8616,0.8812,232.63,248.95,0.9009,3.5883,Scaffold_BX-6,482
+93,3,"Dipole_1, r2_acc, Polar_acc",0.8945,0.7377,0.1568,4.8616,0.8776,236.63,257.61,0.9009,3.5883,Scaffold_BX-6,483
+24,2,"Dipole_1, Polar_acc",0.8945,0.7377,0.1568,4.8616,0.8794,234.63,253.28,0.9009,3.5883,Scaffold_BX-6,484
+10,2,"Monopole, Dipole_1",0.8983,0.7363,0.162,4.8507,0.8833,232.18,250.83,0.9229,3.166,Scaffold_BX-6,485
+50,3,"Monopole, Dipole_1, r2_acc",0.8983,0.7363,0.162,4.8507,0.8815,234.18,255.16,0.9229,3.166,Scaffold_BX-6,486
+149,4,"Monopole, Dipole_1, r2_acc, Polar_acc",0.8983,0.7363,0.162,4.8507,0.8797,236.18,259.49,0.9229,3.166,Scaffold_BX-6,487
+52,3,"Monopole, Dipole_1, Polar_acc",0.8983,0.7363,0.162,4.8507,0.8815,234.18,255.16,0.9229,3.166,Scaffold_BX-6,488
+15,2,"Monopole, r2_acc",0.8969,0.7307,0.1662,4.8976,0.8816,233.27,251.91,0.9281,3.0565,Scaffold_BX-6,489
+17,2,"Monopole, Polar_acc",0.8969,0.7307,0.1662,4.8976,0.8816,233.27,251.91,0.9281,3.0565,Scaffold_BX-6,490
+72,3,"Monopole, r2_acc, Polar_acc",0.8969,0.7307,0.1662,4.8976,0.8798,235.27,256.24,0.9281,3.0565,Scaffold_BX-6,491
+1,1,Monopole,0.8969,0.7307,0.1662,4.8976,0.8833,231.27,247.58,0.9281,3.0565,Scaffold_BX-6,492
+42,2,"r2, Polar_acc",0.8785,0.6891,0.1893,5.2956,0.8602,245.89,264.54,0.912,3.382,Scaffold_BX-6,493
+40,2,"r2, r2_acc",0.8785,0.6891,0.1893,5.2956,0.8602,245.89,264.54,0.912,3.382,Scaffold_BX-6,494
+127,3,"r2, r2_acc, Polar_acc",0.8785,0.6891,0.1893,5.2956,0.8581,247.89,268.87,0.912,3.382,Scaffold_BX-6,495
+6,1,r2,0.8785,0.6891,0.1893,5.2956,0.8622,243.89,260.21,0.912,3.382,Scaffold_BX-6,496
+43,2,"r2_acc, Polarizability",0.8714,0.6748,0.1966,5.4349,0.852,250.23,268.88,0.9039,3.5342,Scaffold_BX-6,497
+8,1,Polarizability,0.8714,0.6748,0.1966,5.4349,0.8541,248.23,264.55,0.9039,3.5342,Scaffold_BX-6,498
+45,2,"Polarizability, Polar_acc",0.8714,0.6748,0.1966,5.4349,0.852,250.23,268.88,0.9039,3.5342,Scaffold_BX-6,499
+129,3,"r2_acc, Polarizability, Polar_acc",0.8714,0.6748,0.1966,5.4349,0.8497,252.23,273.21,0.9039,3.5342,Scaffold_BX-6,500
+39,2,"C6, Polar_acc",0.8631,0.6574,0.2057,5.5922,0.8424,255.01,273.66,0.9005,3.5958,Scaffold_BX-6,501
+37,2,"C6, r2_acc",0.8631,0.6574,0.2057,5.5922,0.8424,255.01,273.66,0.9005,3.5958,Scaffold_BX-6,502
+124,3,"C6, r2_acc, Polar_acc",0.8631,0.6574,0.2057,5.5922,0.84,257.01,277.99,0.9005,3.5958,Scaffold_BX-6,503
+5,1,C6,0.8631,0.6574,0.2057,5.5922,0.8447,253.01,269.33,0.9005,3.5958,Scaffold_BX-6,504
+118,3,"Q_2, r2_acc, Polar_acc",0.3607,0.2164,0.1442,10.6656,0.2503,374.38,395.36,0.5551,7.6039,Scaffold_BZ-5,505
+35,2,"Q_2, Polar_acc",0.3607,0.2164,0.1442,10.6656,0.2615,372.38,391.02,0.5551,7.6039,Scaffold_BZ-5,506
+33,2,"Q_2, r2_acc",0.3607,0.2164,0.1442,10.6656,0.2615,372.38,391.02,0.5551,7.6039,Scaffold_BZ-5,507
+4,1,Q_2,0.3607,0.2164,0.1442,10.6656,0.2724,370.38,386.69,0.5551,7.6039,Scaffold_BZ-5,508
+44,2,"r2_acc, Polar_acc",0.1426,-0.1404,0.283,12.4618,0.0269,393.34,411.99,-0.1736,12.3497,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",509
+7,1,r2_acc,0.1426,-0.1404,0.283,12.4618,0.0412,391.34,407.66,-0.1736,12.3497,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",510
+9,1,Polar_acc,0.1426,-0.1404,0.283,12.4618,0.0412,391.34,407.66,-0.1736,12.3497,"Scaffold_BX-6, Scaffold_BZ-5, Scaffold_BZ-6",511
