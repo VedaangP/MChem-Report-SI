@@ -87,14 +87,14 @@ SCAFFOLD_FACTORS = {
 }
 
 
-TARGET_DB_FILENAME = "Cl-molecules.db"
+TARGET_DB_FILENAME = "ASE-databases/Cl-molecules.db"
 TARGET_LABEL       = "Cl"
 
 # ══════════════════════════════════════════════════════════════════════════════
 # Step 1 — read mol.db: iodine descriptors + scaffold
 # ══════════════════════════════════════════════════════════════════════════════
 
-feat_db     = connect("mol.db")
+feat_db     = connect("ASE-databases/mol.db")
 feat_lookup = {}
 
 for row in feat_db.select():
