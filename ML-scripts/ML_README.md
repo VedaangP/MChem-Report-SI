@@ -47,14 +47,14 @@ Output: Parity Plot
 
 ### `MLR_Vmax_vs_Unified.py`
 
-A single script to compare the Vmax and Unified MLR models. Trained across all databases, so acceptor input parameters were also added.
+A single script to compare the $V_{max}$ and Unified MLR models. Trained across all databases, so acceptor input parameters were also added.
 
 Output: 
-- Parity Plot of Vmax vs Unified model
-- Residual Plot of Vmax vs Unified model
+- Parity Plot of $V_{max}$ vs Unified model
+- Residual Plot of $V_{max}$ vs Unified model
 
 ### `GB_Vmax` and `GB_individual`
 
-Trains GB Vmax and Unified models. Trained across all databases, so acceptor input parameters were also added.
+Trains GB $V_{max}$ and Unified models. Trained across all databases, so acceptor input parameters were also added.
 
 Output: Parity Plot
