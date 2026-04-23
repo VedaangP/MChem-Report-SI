@@ -60,7 +60,7 @@ args = parser.parse_args()
 # dict holding electrostatic properties for iodine
 iodine_mbis_dict = dict()
 db = connect("molecules.db")  # Create ASE SQLite Database
-ref_db = connect("mol.db")
+ref_db = connect("ASE-databases/mol.db")
 for row in ref_db.select():
     if row == 22:    
         continue
