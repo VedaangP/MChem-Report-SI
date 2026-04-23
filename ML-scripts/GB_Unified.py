@@ -88,22 +88,22 @@ SCAFFOLD_FACTORS = {
 
 
 TARGET_DB_CONFIG = {
-    "I-molecules.db"       : ("I",       "I",       "I"),
-    "Cl-molecules.db"      : ("Cl",      "Cl",      "Cl"),
-    "Br-molecules.db"      : ("Br",      "Br",      "Br"),
-    "F-molecules.db"       : ("F",       "F",       "F"),
-    "Ketone-molecules.db"  : ("Ketone",  "Ketone",  "O"),
-    "NH3-molecules.db"     : ("NH3",     "NH3",     "N"),
-    "NF3-molecules.db"     : ("NF3",     "NF3",     "N"),
-    "PH3-molecules.db"     : ("PH3",     "PH3",     "P"),
-    "Benzene-molecules.db" : ("Benzene", "Benzene", "benzene_C"),
+    "ASE-databases/I-molecules.db"       : ("I",       "I",       "I"),
+    "ASE-databases/Cl-molecules.db"      : ("Cl",      "Cl",      "Cl"),
+    "ASE-databases/Br-molecules.db"      : ("Br",      "Br",      "Br"),
+    "ASE-databases/F-molecules.db"       : ("F",       "F",       "F"),
+    "ASE-databases/Ketone-molecules.db"  : ("Ketone",  "Ketone",  "O"),
+    "ASE-databases/NH3-molecules.db"     : ("NH3",     "NH3",     "N"),
+    "ASE-databases/NF3-molecules.db"     : ("NF3",     "NF3",     "N"),
+    "ASE-databases/PH3-molecules.db"     : ("PH3",     "PH3",     "P"),
+    "ASE-databases/Benzene-molecules.db" : ("Benzene", "Benzene", "benzene_C"),
 }
 
 # ══════════════════════════════════════════════════════════════════════════════
 # Step 1 — read mol.db: iodine descriptors + scaffold
 # ══════════════════════════════════════════════════════════════════════════════
 
-feat_db     = connect("mol.db")
+feat_db     = connect("ASE-databases/mol.db")
 feat_lookup = {}
 
 for row in feat_db.select():
@@ -139,7 +139,7 @@ print(f"mol.db: {len(feat_lookup)} molecules parsed")
 # Step 2 — read acceptor.db: acc_monopole, acc_dipole
 # ══════════════════════════════════════════════════════════════════════════════
 
-acceptor_db     = connect("acceptor.db")
+acceptor_db     = connect("ASE-databases/acceptor.db")
 acceptor_lookup = {}
 for row in acceptor_db.select():
     acc_name = row.key_value_pairs.get("Name")
