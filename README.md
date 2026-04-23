@@ -15,7 +15,7 @@ Python scripts used to check possible input parameters and filter them to optimi
 ML-scripts: 
 Python scripts used to train and test the multi-linear regression and gradient boosting models
 
-##Setting up 
+## Setting up 
 Certain programmes and modules are needed to run the code in the repository
 
 ### Prerequisites
