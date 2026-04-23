@@ -34,6 +34,6 @@ Contains all 96 isolated scaffold structures and their values
 
 Contains the halogen bonding acceptors (F-, Cl-, Br-, I-, Formaldehyde, Benzene, $\mathrm{NH}_3$, $\mathrm{PH}_3$ and $\mathrm{NF}_3$) for the acceptor molecule input parameters
 
-### X-molecules.db
+### X-molecules.db - where X = halogen bond acceptor
 
-X = halogen bond acceptor
+Contains all the interaction complexes formed by the scaffold and X, for each complex, the interaction energy is stored alongside the above values
