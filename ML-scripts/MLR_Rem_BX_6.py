@@ -42,8 +42,8 @@ HOLDOUT_SCAFFOLD = "BX-6"   # ← train on everything else, predict on this
 
 # ── Read database ──────────────────────────────────────────────────────────────
 
-feat_db   = connect('mol.db')
-target_db = connect('Cl-molecules.db')
+feat_db   = connect('ASE-databases/mol.db')
+target_db = connect('ASE-databases/Cl-molecules.db')
 
 interaction_e_lookup = {
     row.key_value_pairs.get("Name"): row.Interaction_E
