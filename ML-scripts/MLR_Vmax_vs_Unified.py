@@ -67,22 +67,22 @@ SCAFFOLD_FACTORS = {
 # ══════════════════════════════════════════════════════════════════════════════
 
 TARGET_DB_CONFIG = {
-    "I-molecules.db"       : ("I",       "I"),
-    "Cl-molecules.db"      : ("Cl",      "Cl"),
-    "Br-molecules.db"      : ("Br",      "Br"),
-    "F-molecules.db"       : ("F",       "F"),
-    "Ketone-molecules.db"  : ("Ketone",  "O"),
-    "NH3-molecules.db"     : ("NH3",     "N"),
-    "NF3-molecules.db"     : ("NF3",     "N"),
-    "PH3-molecules.db"     : ("PH3",     "P"),
-    "Benzene-molecules.db" : ("Benzene", "benzene_C"),
+    "ASE-databases/I-molecules.db"       : ("I",       "I"),
+    "ASE-databases/Cl-molecules.db"      : ("Cl",      "Cl"),
+    "ASE-databases/Br-molecules.db"      : ("Br",      "Br"),
+    "ASE-databases/F-molecules.db"       : ("F",       "F"),
+    "ASE-databases/Ketone-molecules.db"  : ("Ketone",  "O"),
+    "ASE-databases/NH3-molecules.db"     : ("NH3",     "N"),
+    "ASE-databases/NF3-molecules.db"     : ("NF3",     "N"),
+    "ASE-databases/PH3-molecules.db"     : ("PH3",     "P"),
+    "ASE-databases/Benzene-molecules.db" : ("Benzene", "benzene_C"),
 }
 
 # ══════════════════════════════════════════════════════════════════════════════
 # Load acceptor.db once — shared by both models
 # ══════════════════════════════════════════════════════════════════════════════
 
-acceptor_db = connect("acceptor.db")
+acceptor_db = connect("ASE-databases/acceptor.db")
 
 acceptor_lookup = {}
 for row in acceptor_db.select():
