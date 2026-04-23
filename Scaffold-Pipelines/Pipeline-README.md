@@ -53,6 +53,11 @@
    - Heatmaps showing correlations between different properties
    - Component-wise analysis of multipole moments
 
+### Atom-refs - Free atom reference densities
+
+- Contains free atom reference densities for all the atoms found in the molecules/complexes
+- Read by the opi pipeline scripts and used to build reference densities for the molecule/complex
+
 ### OPI Pipeline scripts
 
 #### `opi_wf_isolated_scaffold.py` - Primary OPI workflow script used for isolated scaffolds
@@ -80,5 +85,5 @@
 #### Usage
 
 ```bash
-python opi_wf.py -c <cores> -wrkd <working_directory> -subd <submission_directory>
+python opi_wf.py -c <cores> -wrkd <working_directory> -subd <submission_directory> --stom-refs <Atom-ref location>
 ```
